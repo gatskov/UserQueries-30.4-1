@@ -1,6 +1,6 @@
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj: \
- D:\VSCode\UserQueries\build\_deps\cpr-src\cpr\error.cpp \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/error.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\cpr-src\cpr\error.cpp \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/error.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdint \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -89,10 +89,10 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.tcc \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/cprtypes.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/system.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/cprtypes.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/system.h \
  C:/msys64/ucrt64/include/winsock2.h \
  C:/msys64/ucrt64/include/_mingw_unicode.h \
  C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/sdkddkver.h \
@@ -301,11 +301,11 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj: \
  C:/msys64/ucrt64/include/time.h C:/msys64/ucrt64/include/sys/timeb.h \
  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
  C:/msys64/ucrt64/include/pthread_time.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/easy.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/multi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/options.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/easy.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/multi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/options.h \
  C:/msys64/ucrt64/include/c++/13.2.0/map \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \

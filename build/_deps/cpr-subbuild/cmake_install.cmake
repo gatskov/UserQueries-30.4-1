@@ -1,4 +1,4 @@
-# Install script for directory: D:/VSCode/UserQueries/build/_deps/cpr-subbuild
+# Install script for directory: D:/VSCode/exemple4/UserQueries/build/_deps/cpr-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/VSCode/UserQueries/build/_deps/cpr-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/VSCode/exemple4/UserQueries/build/_deps/cpr-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

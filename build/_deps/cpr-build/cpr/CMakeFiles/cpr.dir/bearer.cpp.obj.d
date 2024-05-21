@@ -1,6 +1,6 @@
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj: \
- D:\VSCode\UserQueries\build\_deps\cpr-src\cpr\bearer.cpp \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/bearer.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\cpr-src\cpr\bearer.cpp \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/bearer.h \
  C:/msys64/ucrt64/include/c++/13.2.0/string \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -84,6 +84,6 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.tcc \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
  C:/msys64/ucrt64/include/c++/13.2.0/utility \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h

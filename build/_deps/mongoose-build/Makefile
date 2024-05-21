@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VSCode\UserQueries
+CMAKE_SOURCE_DIR = D:\VSCode\exemple4\UserQueries
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VSCode\UserQueries\build
+CMAKE_BINARY_DIR = D:\VSCode\exemple4\UserQueries\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\UserQueries\build\CMakeFiles D:\VSCode\UserQueries\build\_deps\mongoose-build\\CMakeFiles\progress.marks
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\UserQueries\build\CMakeFiles 0
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\exemple4\UserQueries\build\CMakeFiles D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build\\CMakeFiles\progress.marks
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\exemple4\UserQueries\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/clean
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/preinstall
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/preinstall
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/mongoose-build/CMakeFiles/mongoose.dir/rule:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/CMakeFiles/mongoose.dir/rule
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mongoose-build/CMakeFiles/mongoose.dir/rule
 .PHONY : _deps/mongoose-build/CMakeFiles/mongoose.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ mongoose: _deps/mongoose-build/CMakeFiles/mongoose.dir/rule
 
 # fast build rule for target.
 mongoose/fast:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/build
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/build
 .PHONY : mongoose/fast
 
 mongoose.obj: mongoose.c.obj
@@ -179,7 +179,7 @@ mongoose.obj: mongoose.c.obj
 
 # target to build an object file
 mongoose.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.obj
 .PHONY : mongoose.c.obj
 
 mongoose.i: mongoose.c.i
@@ -187,7 +187,7 @@ mongoose.i: mongoose.c.i
 
 # target to preprocess a source file
 mongoose.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.i
 .PHONY : mongoose.c.i
 
 mongoose.s: mongoose.c.s
@@ -195,7 +195,7 @@ mongoose.s: mongoose.c.s
 
 # target to generate assembly for a file
 mongoose.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.s
 .PHONY : mongoose.c.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

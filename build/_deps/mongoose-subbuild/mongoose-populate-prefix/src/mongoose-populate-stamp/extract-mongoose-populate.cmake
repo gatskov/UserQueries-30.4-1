@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz" ABSOLUTE)
-get_filename_component(directory "D:/VSCode/UserQueries/build/_deps/mongoose-src" ABSOLUTE)
+get_filename_component(filename "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz" ABSOLUTE)
+get_filename_component(directory "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

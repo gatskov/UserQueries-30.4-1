@@ -1,7 +1,7 @@
 _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.obj: \
- D:\VSCode\UserQueries\build\_deps\zlib-src\gzwrite.c \
- D:\VSCode\UserQueries\build\_deps\zlib-src\zbuild.h \
- D:\VSCode\UserQueries\build\_deps\zlib-src\zutil_p.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\zlib-src\gzwrite.c \
+ D:\VSCode\exemple4\UserQueries\build\_deps\zlib-src\zbuild.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\zlib-src\zutil_p.h \
  C:/msys64/ucrt64/include/malloc.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \
@@ -19,7 +19,7 @@ _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.obj: \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
  C:/msys64/ucrt64/include/stdarg.h \
  C:/msys64/ucrt64/include/_mingw_stdarg.h \
- D:\VSCode\UserQueries\build\_deps\zlib-src\gzguts.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\zlib-src\gzguts.h \
  C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \
@@ -28,12 +28,12 @@ _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.obj: \
  C:/msys64/ucrt64/include/string.h \
  C:/msys64/ucrt64/include/sec_api/string_s.h \
  C:/msys64/ucrt64/include/fcntl.h C:/msys64/ucrt64/include/io.h \
- D:\VSCode\UserQueries\build\_deps\zlib-src\zlib.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\zlib-src\zlib.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h \
- D:/VSCode/UserQueries/build/_deps/zlib-build/zconf.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-build/zconf.h \
  C:/msys64/ucrt64/include/sys/types.h C:/msys64/ucrt64/include/unistd.h \
  C:/msys64/ucrt64/include/process.h \
  C:/msys64/ucrt64/include/corecrt_startup.h \

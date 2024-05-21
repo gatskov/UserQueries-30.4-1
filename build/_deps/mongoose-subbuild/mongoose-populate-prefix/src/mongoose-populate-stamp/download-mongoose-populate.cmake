@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz'")
+       file='D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz'")
 
-  file("SHA256" "D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz" actual_value)
+  file("SHA256" "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "f5c10346abc9c72f7cac7885d853ca064fb09aad57580433941a8fd7a3543769")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "SHA256 hash of
-    D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz
+    D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz
   does not match expected value
     expected: 'f5c10346abc9c72f7cac7885d853ca064fb09aad57580433941a8fd7a3543769'
       actual: '${actual_value}'")
@@ -71,32 +71,32 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz")
+if(EXISTS "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz'
+  file='D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz'
   SHA256='f5c10346abc9c72f7cac7885d853ca064fb09aad57580433941a8fd7a3543769'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz")
+      file(REMOVE "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz'
+  file='D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz")
+    file(REMOVE "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz'
+   dst='D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -118,7 +118,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz"
+        "${url}" "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -135,7 +135,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz")
+          file(REMOVE "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/6.18.tar.gz")
         else()
           message(STATUS "Downloading... done")
           return()

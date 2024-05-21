@@ -1,10 +1,10 @@
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/llist.c.obj: \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\llist.c \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_setup.h \
- D:/VSCode/UserQueries/build/_deps/curl-build/lib/curl_config.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/system.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\llist.c \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_setup.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-build/lib/curl_config.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/system.h \
  C:/msys64/ucrt64/include/winsock2.h \
  C:/msys64/ucrt64/include/_mingw_unicode.h \
  C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/_mingw.h \
@@ -201,22 +201,22 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/llist.c.obj: \
  C:/msys64/ucrt64/include/time.h C:/msys64/ucrt64/include/sys/timeb.h \
  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
  C:/msys64/ucrt64/include/pthread_time.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/easy.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/multi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/options.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/typecheck-gcc.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\setup-win32.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/easy.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/multi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/options.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/typecheck-gcc.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\setup-win32.h \
  C:/msys64/ucrt64/include/tchar.h \
  C:/msys64/ucrt64/include/sec_api/tchar_s.h \
  C:/msys64/ucrt64/include/assert.h C:/msys64/ucrt64/include/io.h \
  C:/msys64/ucrt64/include/sys/stat.h \
  C:/msys64/ucrt64/include/_mingw_stat64.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_setup_once.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_setup_once.h \
  C:/msys64/ucrt64/include/fcntl.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_ctype.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\llist.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_memory.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\memdebug.h
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_ctype.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\llist.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_memory.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\memdebug.h

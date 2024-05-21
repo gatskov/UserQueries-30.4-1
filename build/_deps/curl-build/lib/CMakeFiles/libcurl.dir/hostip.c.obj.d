@@ -1,10 +1,10 @@
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip.c.obj: \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\hostip.c \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_setup.h \
- D:/VSCode/UserQueries/build/_deps/curl-build/lib/curl_config.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/system.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\hostip.c \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_setup.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-build/lib/curl_config.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/system.h \
  C:/msys64/ucrt64/include/winsock2.h \
  C:/msys64/ucrt64/include/_mingw_unicode.h \
  C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/_mingw.h \
@@ -201,70 +201,70 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip.c.obj: \
  C:/msys64/ucrt64/include/time.h C:/msys64/ucrt64/include/sys/timeb.h \
  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
  C:/msys64/ucrt64/include/pthread_time.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/easy.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/multi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/options.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/typecheck-gcc.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\setup-win32.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/easy.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/multi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/options.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/typecheck-gcc.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\setup-win32.h \
  C:/msys64/ucrt64/include/tchar.h \
  C:/msys64/ucrt64/include/sec_api/tchar_s.h \
  C:/msys64/ucrt64/include/assert.h C:/msys64/ucrt64/include/io.h \
  C:/msys64/ucrt64/include/sys/stat.h \
  C:/msys64/ucrt64/include/_mingw_stat64.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_setup_once.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_setup_once.h \
  C:/msys64/ucrt64/include/fcntl.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_ctype.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_ctype.h \
  C:/msys64/ucrt64/include/setjmp.h C:/msys64/ucrt64/include/signal.h \
  C:/msys64/ucrt64/include/pthread_signal.h \
  C:/msys64/ucrt64/include/process.h \
  C:/msys64/ucrt64/include/corecrt_startup.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\urldata.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\cookie.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\psl.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\formdata.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\timeval.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\http_chunks.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\hostip.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\hash.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\llist.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_addrinfo.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\asyn.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\splay.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\dynbuf.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\mime.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\imap.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\pingpong.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_sasl.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\pop3.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\smtp.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\ftp.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\file.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\vssh/ssh.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/lib/curl_setup.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\http.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\rtsp.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\smb.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\mqtt.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\wildcard.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\multihandle.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\conncache.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\socketpair.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\quic.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\c-hyper.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\sendf.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\rand.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\share.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\strerror.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\url.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\inet_ntop.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\inet_pton.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\multiif.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\doh.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\warnless.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_printf.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/mprintf.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\curl_memory.h \
- D:\VSCode\UserQueries\build\_deps\curl-src\lib\memdebug.h
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\urldata.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\cookie.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\psl.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\formdata.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\timeval.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\http_chunks.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\hostip.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\hash.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\llist.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_addrinfo.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\asyn.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\splay.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\dynbuf.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\mime.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\imap.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\pingpong.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_sasl.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\pop3.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\smtp.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\ftp.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\file.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\vssh/ssh.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/lib/curl_setup.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\http.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\rtsp.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\smb.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\mqtt.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\wildcard.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\multihandle.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\conncache.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\socketpair.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\quic.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\c-hyper.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\sendf.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\rand.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\share.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\strerror.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\url.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\inet_ntop.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\inet_pton.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\multiif.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\doh.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\warnless.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_printf.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/mprintf.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\curl_memory.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\memdebug.h

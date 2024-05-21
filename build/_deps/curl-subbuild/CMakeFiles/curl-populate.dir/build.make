@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VSCode\UserQueries\build\_deps\curl-subbuild
+CMAKE_SOURCE_DIR = D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VSCode\UserQueries\build\_deps\curl-subbuild
+CMAKE_BINARY_DIR = D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild
 
 # Utility rule file for curl-populate.
 
@@ -76,57 +76,57 @@ CMakeFiles/curl-populate-complete: curl-populate-prefix/src/curl-populate-stamp/
 CMakeFiles/curl-populate-complete: curl-populate-prefix/src/curl-populate-stamp/curl-populate-build
 CMakeFiles/curl-populate-complete: curl-populate-prefix/src/curl-populate-stamp/curl-populate-install
 CMakeFiles/curl-populate-complete: curl-populate-prefix/src/curl-populate-stamp/curl-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'curl-populate'"
-	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/VSCode/UserQueries/build/_deps/curl-subbuild/CMakeFiles
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'curl-populate'"
+	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/CMakeFiles
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-build: curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'curl-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'curl-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure: curl-populate-prefix/tmp/curl-populate-cfgcmd.txt
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure: curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'curl-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'curl-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-download: curl-populate-prefix/src/curl-populate-stamp/download-curl-populate.cmake
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-download: curl-populate-prefix/src/curl-populate-stamp/curl-populate-urlinfo.txt
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-download: curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'curl-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/download-curl-populate.cmake
-	cd /d D:\VSCode\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/verify-curl-populate.cmake
-	cd /d D:\VSCode\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/extract-curl-populate.cmake
-	cd /d D:\VSCode\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'curl-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/download-curl-populate.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/verify-curl-populate.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/extract-curl-populate.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-install: curl-populate-prefix/src/curl-populate-stamp/curl-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'curl-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'curl-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'curl-populate'"
-	"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/tmp/curl-populate-mkdirs.cmake
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'curl-populate'"
+	"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/tmp/curl-populate-mkdirs.cmake
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch: curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch-info.txt
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch: curl-populate-prefix/src/curl-populate-stamp/curl-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'curl-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'curl-populate'"
 	"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-test: curl-populate-prefix/src/curl-populate-stamp/curl-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'curl-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'curl-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-update: curl-populate-prefix/src/curl-populate-stamp/curl-populate-update-info.txt
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-update: curl-populate-prefix/src/curl-populate-stamp/curl-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'curl-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'curl-populate'"
 	"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update
 
 curl-populate: CMakeFiles/curl-populate
 curl-populate: CMakeFiles/curl-populate-complete
@@ -150,6 +150,6 @@ CMakeFiles/curl-populate.dir/clean:
 .PHONY : CMakeFiles/curl-populate.dir/clean
 
 CMakeFiles/curl-populate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCode\UserQueries\build\_deps\curl-subbuild D:\VSCode\UserQueries\build\_deps\curl-subbuild D:\VSCode\UserQueries\build\_deps\curl-subbuild D:\VSCode\UserQueries\build\_deps\curl-subbuild D:\VSCode\UserQueries\build\_deps\curl-subbuild\CMakeFiles\curl-populate.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild D:\VSCode\exemple4\UserQueries\build\_deps\curl-subbuild\CMakeFiles\curl-populate.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/curl-populate.dir/depend
 

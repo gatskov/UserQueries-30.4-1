@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/USERQUERES.dir/main.cpp.obj"
   "CMakeFiles/USERQUERES.dir/main.cpp.obj.d"
-  "D:/VSCode/UserQueries/bin/USERQUERES.exe"
-  "D:/VSCode/UserQueries/bin/USERQUERES.exe.manifest"
-  "D:/VSCode/UserQueries/bin/USERQUERES.pdb"
+  "D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe"
+  "D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe.manifest"
+  "D:/VSCode/exemple4/UserQueries/bin/USERQUERES.pdb"
   "libUSERQUERES.dll.a"
 )
 

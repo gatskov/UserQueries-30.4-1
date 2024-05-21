@@ -20,8 +20,8 @@ project(mongoose-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(mongoose-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/cesanta/mongoose/archive/6.18.tar.gz" "URL_HASH" "SHA256=f5c10346abc9c72f7cac7885d853ca064fb09aad57580433941a8fd7a3543769"
-                    SOURCE_DIR          "D:/VSCode/UserQueries/build/_deps/mongoose-src"
-                    BINARY_DIR          "D:/VSCode/UserQueries/build/_deps/mongoose-build"
+                    SOURCE_DIR          "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-src"
+                    BINARY_DIR          "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

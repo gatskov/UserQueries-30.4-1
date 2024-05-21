@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VSCode\UserQueries
+CMAKE_SOURCE_DIR = D:\VSCode\exemple4\UserQueries
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VSCode\UserQueries\build
+CMAKE_BINARY_DIR = D:\VSCode\exemple4\UserQueries\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\UserQueries\build\CMakeFiles D:\VSCode\UserQueries\build\_deps\cpr-build\cpr\\CMakeFiles\progress.marks
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\UserQueries\build\CMakeFiles 0
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\exemple4\UserQueries\build\CMakeFiles D:\VSCode\exemple4\UserQueries\build\_deps\cpr-build\cpr\\CMakeFiles\progress.marks
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\exemple4\UserQueries\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/clean
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/preinstall
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/preinstall
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/rule:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/rule
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/rule
 .PHONY : _deps/cpr-build/cpr/CMakeFiles/cpr.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ cpr: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/rule
 
 # fast build rule for target.
 cpr/fast:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build
 .PHONY : cpr/fast
 
 auth.obj: auth.cpp.obj
@@ -179,7 +179,7 @@ auth.obj: auth.cpp.obj
 
 # target to build an object file
 auth.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj
 .PHONY : auth.cpp.obj
 
 auth.i: auth.cpp.i
@@ -187,7 +187,7 @@ auth.i: auth.cpp.i
 
 # target to preprocess a source file
 auth.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.i
 .PHONY : auth.cpp.i
 
 auth.s: auth.cpp.s
@@ -195,7 +195,7 @@ auth.s: auth.cpp.s
 
 # target to generate assembly for a file
 auth.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.s
 .PHONY : auth.cpp.s
 
 bearer.obj: bearer.cpp.obj
@@ -203,7 +203,7 @@ bearer.obj: bearer.cpp.obj
 
 # target to build an object file
 bearer.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj
 .PHONY : bearer.cpp.obj
 
 bearer.i: bearer.cpp.i
@@ -211,7 +211,7 @@ bearer.i: bearer.cpp.i
 
 # target to preprocess a source file
 bearer.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.i
 .PHONY : bearer.cpp.i
 
 bearer.s: bearer.cpp.s
@@ -219,7 +219,7 @@ bearer.s: bearer.cpp.s
 
 # target to generate assembly for a file
 bearer.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.s
 .PHONY : bearer.cpp.s
 
 cookies.obj: cookies.cpp.obj
@@ -227,7 +227,7 @@ cookies.obj: cookies.cpp.obj
 
 # target to build an object file
 cookies.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj
 .PHONY : cookies.cpp.obj
 
 cookies.i: cookies.cpp.i
@@ -235,7 +235,7 @@ cookies.i: cookies.cpp.i
 
 # target to preprocess a source file
 cookies.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.i
 .PHONY : cookies.cpp.i
 
 cookies.s: cookies.cpp.s
@@ -243,7 +243,7 @@ cookies.s: cookies.cpp.s
 
 # target to generate assembly for a file
 cookies.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.s
 .PHONY : cookies.cpp.s
 
 cprtypes.obj: cprtypes.cpp.obj
@@ -251,7 +251,7 @@ cprtypes.obj: cprtypes.cpp.obj
 
 # target to build an object file
 cprtypes.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj
 .PHONY : cprtypes.cpp.obj
 
 cprtypes.i: cprtypes.cpp.i
@@ -259,7 +259,7 @@ cprtypes.i: cprtypes.cpp.i
 
 # target to preprocess a source file
 cprtypes.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.i
 .PHONY : cprtypes.cpp.i
 
 cprtypes.s: cprtypes.cpp.s
@@ -267,7 +267,7 @@ cprtypes.s: cprtypes.cpp.s
 
 # target to generate assembly for a file
 cprtypes.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.s
 .PHONY : cprtypes.cpp.s
 
 curl_container.obj: curl_container.cpp.obj
@@ -275,7 +275,7 @@ curl_container.obj: curl_container.cpp.obj
 
 # target to build an object file
 curl_container.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj
 .PHONY : curl_container.cpp.obj
 
 curl_container.i: curl_container.cpp.i
@@ -283,7 +283,7 @@ curl_container.i: curl_container.cpp.i
 
 # target to preprocess a source file
 curl_container.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.i
 .PHONY : curl_container.cpp.i
 
 curl_container.s: curl_container.cpp.s
@@ -291,7 +291,7 @@ curl_container.s: curl_container.cpp.s
 
 # target to generate assembly for a file
 curl_container.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.s
 .PHONY : curl_container.cpp.s
 
 curlholder.obj: curlholder.cpp.obj
@@ -299,7 +299,7 @@ curlholder.obj: curlholder.cpp.obj
 
 # target to build an object file
 curlholder.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj
 .PHONY : curlholder.cpp.obj
 
 curlholder.i: curlholder.cpp.i
@@ -307,7 +307,7 @@ curlholder.i: curlholder.cpp.i
 
 # target to preprocess a source file
 curlholder.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.i
 .PHONY : curlholder.cpp.i
 
 curlholder.s: curlholder.cpp.s
@@ -315,7 +315,7 @@ curlholder.s: curlholder.cpp.s
 
 # target to generate assembly for a file
 curlholder.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.s
 .PHONY : curlholder.cpp.s
 
 error.obj: error.cpp.obj
@@ -323,7 +323,7 @@ error.obj: error.cpp.obj
 
 # target to build an object file
 error.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj
 .PHONY : error.cpp.obj
 
 error.i: error.cpp.i
@@ -331,7 +331,7 @@ error.i: error.cpp.i
 
 # target to preprocess a source file
 error.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.i
 .PHONY : error.cpp.i
 
 error.s: error.cpp.s
@@ -339,7 +339,7 @@ error.s: error.cpp.s
 
 # target to generate assembly for a file
 error.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.s
 .PHONY : error.cpp.s
 
 multipart.obj: multipart.cpp.obj
@@ -347,7 +347,7 @@ multipart.obj: multipart.cpp.obj
 
 # target to build an object file
 multipart.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj
 .PHONY : multipart.cpp.obj
 
 multipart.i: multipart.cpp.i
@@ -355,7 +355,7 @@ multipart.i: multipart.cpp.i
 
 # target to preprocess a source file
 multipart.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.i
 .PHONY : multipart.cpp.i
 
 multipart.s: multipart.cpp.s
@@ -363,7 +363,7 @@ multipart.s: multipart.cpp.s
 
 # target to generate assembly for a file
 multipart.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.s
 .PHONY : multipart.cpp.s
 
 parameters.obj: parameters.cpp.obj
@@ -371,7 +371,7 @@ parameters.obj: parameters.cpp.obj
 
 # target to build an object file
 parameters.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj
 .PHONY : parameters.cpp.obj
 
 parameters.i: parameters.cpp.i
@@ -379,7 +379,7 @@ parameters.i: parameters.cpp.i
 
 # target to preprocess a source file
 parameters.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.i
 .PHONY : parameters.cpp.i
 
 parameters.s: parameters.cpp.s
@@ -387,7 +387,7 @@ parameters.s: parameters.cpp.s
 
 # target to generate assembly for a file
 parameters.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.s
 .PHONY : parameters.cpp.s
 
 payload.obj: payload.cpp.obj
@@ -395,7 +395,7 @@ payload.obj: payload.cpp.obj
 
 # target to build an object file
 payload.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj
 .PHONY : payload.cpp.obj
 
 payload.i: payload.cpp.i
@@ -403,7 +403,7 @@ payload.i: payload.cpp.i
 
 # target to preprocess a source file
 payload.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.i
 .PHONY : payload.cpp.i
 
 payload.s: payload.cpp.s
@@ -411,7 +411,7 @@ payload.s: payload.cpp.s
 
 # target to generate assembly for a file
 payload.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.s
 .PHONY : payload.cpp.s
 
 proxies.obj: proxies.cpp.obj
@@ -419,7 +419,7 @@ proxies.obj: proxies.cpp.obj
 
 # target to build an object file
 proxies.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj
 .PHONY : proxies.cpp.obj
 
 proxies.i: proxies.cpp.i
@@ -427,7 +427,7 @@ proxies.i: proxies.cpp.i
 
 # target to preprocess a source file
 proxies.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.i
 .PHONY : proxies.cpp.i
 
 proxies.s: proxies.cpp.s
@@ -435,7 +435,7 @@ proxies.s: proxies.cpp.s
 
 # target to generate assembly for a file
 proxies.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.s
 .PHONY : proxies.cpp.s
 
 response.obj: response.cpp.obj
@@ -443,7 +443,7 @@ response.obj: response.cpp.obj
 
 # target to build an object file
 response.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj
 .PHONY : response.cpp.obj
 
 response.i: response.cpp.i
@@ -451,7 +451,7 @@ response.i: response.cpp.i
 
 # target to preprocess a source file
 response.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.i
 .PHONY : response.cpp.i
 
 response.s: response.cpp.s
@@ -459,7 +459,7 @@ response.s: response.cpp.s
 
 # target to generate assembly for a file
 response.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.s
 .PHONY : response.cpp.s
 
 session.obj: session.cpp.obj
@@ -467,7 +467,7 @@ session.obj: session.cpp.obj
 
 # target to build an object file
 session.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj
 .PHONY : session.cpp.obj
 
 session.i: session.cpp.i
@@ -475,7 +475,7 @@ session.i: session.cpp.i
 
 # target to preprocess a source file
 session.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.i
 .PHONY : session.cpp.i
 
 session.s: session.cpp.s
@@ -483,7 +483,7 @@ session.s: session.cpp.s
 
 # target to generate assembly for a file
 session.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.s
 .PHONY : session.cpp.s
 
 timeout.obj: timeout.cpp.obj
@@ -491,7 +491,7 @@ timeout.obj: timeout.cpp.obj
 
 # target to build an object file
 timeout.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj
 .PHONY : timeout.cpp.obj
 
 timeout.i: timeout.cpp.i
@@ -499,7 +499,7 @@ timeout.i: timeout.cpp.i
 
 # target to preprocess a source file
 timeout.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.i
 .PHONY : timeout.cpp.i
 
 timeout.s: timeout.cpp.s
@@ -507,7 +507,7 @@ timeout.s: timeout.cpp.s
 
 # target to generate assembly for a file
 timeout.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.s
 .PHONY : timeout.cpp.s
 
 unix_socket.obj: unix_socket.cpp.obj
@@ -515,7 +515,7 @@ unix_socket.obj: unix_socket.cpp.obj
 
 # target to build an object file
 unix_socket.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj
 .PHONY : unix_socket.cpp.obj
 
 unix_socket.i: unix_socket.cpp.i
@@ -523,7 +523,7 @@ unix_socket.i: unix_socket.cpp.i
 
 # target to preprocess a source file
 unix_socket.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.i
 .PHONY : unix_socket.cpp.i
 
 unix_socket.s: unix_socket.cpp.s
@@ -531,7 +531,7 @@ unix_socket.s: unix_socket.cpp.s
 
 # target to generate assembly for a file
 unix_socket.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.s
 .PHONY : unix_socket.cpp.s
 
 util.obj: util.cpp.obj
@@ -539,7 +539,7 @@ util.obj: util.cpp.obj
 
 # target to build an object file
 util.cpp.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.obj
 .PHONY : util.cpp.obj
 
 util.i: util.cpp.i
@@ -547,7 +547,7 @@ util.i: util.cpp.i
 
 # target to preprocess a source file
 util.cpp.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.i
 .PHONY : util.cpp.i
 
 util.s: util.cpp.s
@@ -555,7 +555,7 @@ util.s: util.cpp.s
 
 # target to generate assembly for a file
 util.cpp.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.s
 .PHONY : util.cpp.s
 
 # Help Target
@@ -630,6 +630,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

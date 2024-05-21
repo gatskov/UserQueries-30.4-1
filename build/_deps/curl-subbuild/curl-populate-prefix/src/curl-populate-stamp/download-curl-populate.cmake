@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz'")
+       file='D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz'")
 
-  file("SHA256" "D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz" actual_value)
+  file("SHA256" "D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "fe0c49d8468249000bda75bcfdf9e30ff7e9a86d35f1a21f428d79c389d55675")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "SHA256 hash of
-    D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz
+    D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz
   does not match expected value
     expected: 'fe0c49d8468249000bda75bcfdf9e30ff7e9a86d35f1a21f428d79c389d55675'
       actual: '${actual_value}'")
@@ -71,32 +71,32 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz")
+if(EXISTS "D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz'
+  file='D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz'
   SHA256='fe0c49d8468249000bda75bcfdf9e30ff7e9a86d35f1a21f428d79c389d55675'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz")
+      file(REMOVE "D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz'
+  file='D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz")
+    file(REMOVE "D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz'
+   dst='D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -118,7 +118,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz"
+        "${url}" "D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -135,7 +135,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "D:/VSCode/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz")
+          file(REMOVE "D:/VSCode/exemple4/UserQueries/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.75.0.tar.xz")
         else()
           message(STATUS "Downloading... done")
           return()

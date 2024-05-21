@@ -31,9 +31,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpr.dir/unix_socket.cpp.obj.d"
   "CMakeFiles/cpr.dir/util.cpp.obj"
   "CMakeFiles/cpr.dir/util.cpp.obj.d"
-  "D:/VSCode/UserQueries/bin/libcpr.dll"
-  "D:/VSCode/UserQueries/bin/libcpr.dll.manifest"
-  "D:/VSCode/UserQueries/bin/libcpr.pdb"
+  "D:/VSCode/exemple4/UserQueries/bin/libcpr.dll"
+  "D:/VSCode/exemple4/UserQueries/bin/libcpr.dll.manifest"
+  "D:/VSCode/exemple4/UserQueries/bin/libcpr.pdb"
   "libcpr.dll.a"
 )
 

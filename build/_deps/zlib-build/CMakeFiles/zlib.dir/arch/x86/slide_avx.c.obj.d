@@ -1,8 +1,8 @@
 _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.obj: \
- D:\VSCode\UserQueries\build\_deps\zlib-src\arch\x86\slide_avx.c \
- D:/VSCode/UserQueries/build/_deps/zlib-src/zbuild.h \
- D:/VSCode/UserQueries/build/_deps/zlib-src/deflate.h \
- D:/VSCode/UserQueries/build/_deps/zlib-src/zutil.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\zlib-src\arch\x86\slide_avx.c \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/zbuild.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/deflate.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/zutil.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
@@ -23,11 +23,11 @@ _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.obj: \
  C:/msys64/ucrt64/include/errno.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
- D:/VSCode/UserQueries/build/_deps/zlib-src/zlib.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/zlib.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
  C:/msys64/ucrt64/include/stdarg.h \
  C:/msys64/ucrt64/include/_mingw_stdarg.h \
- D:/VSCode/UserQueries/build/_deps/zlib-build/zconf.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-build/zconf.h \
  C:/msys64/ucrt64/include/sys/types.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \
  C:/msys64/ucrt64/include/unistd.h C:/msys64/ucrt64/include/io.h \
@@ -35,13 +35,13 @@ _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.obj: \
  C:/msys64/ucrt64/include/corecrt_startup.h \
  C:/msys64/ucrt64/include/getopt.h \
  C:/msys64/ucrt64/include/pthread_unistd.h \
- D:/VSCode/UserQueries/build/_deps/zlib-src/zbuild.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/zbuild.h \
  C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
  C:/msys64/ucrt64/include/swprintf.inl \
  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
- D:/VSCode/UserQueries/build/_deps/zlib-src/arch/x86/x86.h \
- D:/VSCode/UserQueries/build/_deps/zlib-src/zendian.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/arch/x86/x86.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/zendian.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/immintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/x86gprintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/ia32intrin.h \

@@ -1,8 +1,8 @@
-# Install script for directory: D:/VSCode/UserQueries/build/_deps/cpr-src
+# Install script for directory: D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Httpbin")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/USERQUERES")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,31 +39,31 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/VSCode/UserQueries/build/_deps/zlib-build/cmake_install.cmake")
+  include("D:/VSCode/exemple4/UserQueries/build/_deps/zlib-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/VSCode/UserQueries/build/_deps/curl-build/cmake_install.cmake")
+  include("D:/VSCode/exemple4/UserQueries/build/_deps/curl-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/VSCode/UserQueries/build/_deps/googletest-build/cmake_install.cmake")
+  include("D:/VSCode/exemple4/UserQueries/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/VSCode/UserQueries/build/_deps/mongoose-build/cmake_install.cmake")
+  include("D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/VSCode/UserQueries/build/_deps/cpr-build/cpr/cmake_install.cmake")
+  include("D:/VSCode/exemple4/UserQueries/build/_deps/cpr-build/cpr/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/VSCode/UserQueries/build/_deps/cpr-build/include/cmake_install.cmake")
+  include("D:/VSCode/exemple4/UserQueries/build/_deps/cpr-build/include/cmake_install.cmake")
 endif()
 

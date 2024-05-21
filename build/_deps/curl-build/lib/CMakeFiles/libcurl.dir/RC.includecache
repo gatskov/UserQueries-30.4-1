@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h
+D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h
 
-D:/VSCode/UserQueries/build/_deps/curl-src/lib/libcurl.rc
+D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/lib/libcurl.rc
 winver.h
 -
 ../include/curl/curlver.h
-D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h
+D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h
 

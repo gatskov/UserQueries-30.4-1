@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VSCode\UserQueries
+CMAKE_SOURCE_DIR = D:\VSCode\exemple4\UserQueries
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VSCode\UserQueries\build
+CMAKE_BINARY_DIR = D:\VSCode\exemple4\UserQueries\build
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include _deps/curl-build/CMakeFiles/uninstall.dir/compiler_depend.make
 include _deps/curl-build/CMakeFiles/uninstall.dir/progress.make
 
 _deps/curl-build/CMakeFiles/uninstall:
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/UserQueries/build/_deps/curl-build/CMake/cmake_uninstall.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/exemple4/UserQueries/build/_deps/curl-build/CMake/cmake_uninstall.cmake
 
 uninstall: _deps/curl-build/CMakeFiles/uninstall
 uninstall: _deps/curl-build/CMakeFiles/uninstall.dir/build.make
@@ -77,10 +77,10 @@ _deps/curl-build/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : _deps/curl-build/CMakeFiles/uninstall.dir/build
 
 _deps/curl-build/CMakeFiles/uninstall.dir/clean:
-	cd /d D:\VSCode\UserQueries\build\_deps\curl-build && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\curl-build && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : _deps/curl-build/CMakeFiles/uninstall.dir/clean
 
 _deps/curl-build/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCode\UserQueries D:\VSCode\UserQueries\build\_deps\curl-src D:\VSCode\UserQueries\build D:\VSCode\UserQueries\build\_deps\curl-build D:\VSCode\UserQueries\build\_deps\curl-build\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCode\exemple4\UserQueries D:\VSCode\exemple4\UserQueries\build\_deps\curl-src D:\VSCode\exemple4\UserQueries\build D:\VSCode\exemple4\UserQueries\build\_deps\curl-build D:\VSCode\exemple4\UserQueries\build\_deps\curl-build\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/curl-build/CMakeFiles/uninstall.dir/depend
 

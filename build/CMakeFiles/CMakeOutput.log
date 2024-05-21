@@ -1,185 +1,185 @@
 Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
-Change Dir: 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Change Dir: 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_caf5b/fast
-C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_caf5b.dir\build.make CMakeFiles/cmTC_caf5b.dir/build
-mingw32-make[1]: Entering directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_caf5b.dir/CurlTests.c.obj
-C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_caf5b.dir\CurlTests.c.obj -c D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:321:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_a5d1c/fast
+C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a5d1c.dir\build.make CMakeFiles/cmTC_a5d1c.dir/build
+mingw32-make[1]: Entering directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5d1c.dir/CurlTests.c.obj
+C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_a5d1c.dir\CurlTests.c.obj -c D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:321:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   321 | main ()
       | ^~~~
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:326:24: warning: 'socket' is used uninitialized [-Wuninitialized]
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:326:24: warning: 'socket' is used uninitialized [-Wuninitialized]
   326 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
       |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:325:6: note: 'socket' was declared here
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:325:6: note: 'socket' was declared here
   325 |  int socket;
       |      ^~~~~~
-Linking C executable cmTC_caf5b.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_caf5b.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_caf5b.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_caf5b.dir/objects.a @CMakeFiles\cmTC_caf5b.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_caf5b.dir/objects.a -Wl,--no-whole-archive -o cmTC_caf5b.exe -Wl,--out-implib,libcmTC_caf5b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_caf5b.dir\linkLibs.rsp
-mingw32-make[1]: Leaving directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_a5d1c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a5d1c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a5d1c.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_a5d1c.dir/objects.a @CMakeFiles\cmTC_a5d1c.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_a5d1c.dir/objects.a -Wl,--no-whole-archive -o cmTC_a5d1c.exe -Wl,--out-implib,libcmTC_a5d1c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a5d1c.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
 
 Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO passed with the following output:
-Change Dir: 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Change Dir: 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_030cd/fast
-C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_030cd.dir\build.make CMakeFiles/cmTC_030cd.dir/build
-mingw32-make[1]: Entering directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_030cd.dir/CurlTests.c.obj
-C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_030cd.dir\CurlTests.c.obj -c D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:377:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_5ada4/fast
+C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5ada4.dir\build.make CMakeFiles/cmTC_5ada4.dir/build
+mingw32-make[1]: Entering directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ada4.dir/CurlTests.c.obj
+C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_5ada4.dir\CurlTests.c.obj -c D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:377:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   377 | main ()
       | ^~~~
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:382:41: warning: pointer targets in passing argument 3 of 'ioctlsocket' differ in signedness [-Wpointer-sign]
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:382:41: warning: pointer targets in passing argument 3 of 'ioctlsocket' differ in signedness [-Wpointer-sign]
   382 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
       |                                         ^~~~~~
       |                                         |
       |                                         long int *
-In file included from D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:368:
+In file included from D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:368:
 C:/msys64/ucrt64/include/winsock2.h:1007:76: note: expected 'u_long *' {aka 'long unsigned int *'} but argument is of type 'long int *'
  1007 |   WINSOCK_API_LINKAGE int WSAAPI ioctlsocket(SOCKET s,__LONG32 cmd,u_long *argp);
       |                                                                    ~~~~~~~~^~~~
-Linking C executable cmTC_030cd.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_030cd.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_030cd.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_030cd.dir/objects.a @CMakeFiles\cmTC_030cd.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_030cd.dir/objects.a -Wl,--no-whole-archive -o cmTC_030cd.exe -Wl,--out-implib,libcmTC_030cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_030cd.dir\linkLibs.rsp
-mingw32-make[1]: Leaving directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_5ada4.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5ada4.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5ada4.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_5ada4.dir/objects.a @CMakeFiles\cmTC_5ada4.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_5ada4.dir/objects.a -Wl,--no-whole-archive -o cmTC_5ada4.exe -Wl,--out-implib,libcmTC_5ada4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5ada4.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
 
 Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
-Change Dir: 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Change Dir: 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_44db5/fast
-C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_44db5.dir\build.make CMakeFiles/cmTC_44db5.dir/build
-mingw32-make[1]: Entering directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_44db5.dir/CurlTests.c.obj
-C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_44db5.dir\CurlTests.c.obj -c D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:405:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_b5321/fast
+C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b5321.dir\build.make CMakeFiles/cmTC_b5321.dir/build
+mingw32-make[1]: Entering directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5321.dir/CurlTests.c.obj
+C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_b5321.dir\CurlTests.c.obj -c D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:405:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   405 | main ()
       | ^~~~
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:409:41: warning: passing argument 3 of 'ioctlsocket' from incompatible pointer type [-Wincompatible-pointer-types]
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:409:41: warning: passing argument 3 of 'ioctlsocket' from incompatible pointer type [-Wincompatible-pointer-types]
   409 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
       |                                         ^~~~~~
       |                                         |
       |                                         int *
-In file included from D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:396:
+In file included from D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:396:
 C:/msys64/ucrt64/include/winsock2.h:1007:76: note: expected 'u_long *' {aka 'long unsigned int *'} but argument is of type 'int *'
  1007 |   WINSOCK_API_LINKAGE int WSAAPI ioctlsocket(SOCKET s,__LONG32 cmd,u_long *argp);
       |                                                                    ~~~~~~~~^~~~
-Linking C executable cmTC_44db5.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_44db5.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_44db5.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_44db5.dir/objects.a @CMakeFiles\cmTC_44db5.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_44db5.dir/objects.a -Wl,--no-whole-archive -o cmTC_44db5.exe -Wl,--out-implib,libcmTC_44db5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_44db5.dir\linkLibs.rsp
-mingw32-make[1]: Leaving directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_b5321.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b5321.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b5321.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_b5321.dir/objects.a @CMakeFiles\cmTC_b5321.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_b5321.dir/objects.a -Wl,--no-whole-archive -o cmTC_b5321.exe -Wl,--out-implib,libcmTC_b5321.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b5321.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
 
 Performing Curl Test HAVE_BOOL_T passed with the following output:
-Change Dir: 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Change Dir: 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_7d789/fast
-C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7d789.dir\build.make CMakeFiles/cmTC_7d789.dir/build
-mingw32-make[1]: Entering directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7d789.dir/CurlTests.c.obj
-C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_BOOL_T  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_7d789.dir\CurlTests.c.obj -c D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:201:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_c9a5c/fast
+C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c9a5c.dir\build.make CMakeFiles/cmTC_c9a5c.dir/build
+mingw32-make[1]: Entering directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9a5c.dir/CurlTests.c.obj
+C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_BOOL_T  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_c9a5c.dir\CurlTests.c.obj -c D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:201:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   201 | main ()
       | ^~~~
-Linking C executable cmTC_7d789.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7d789.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7d789.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_7d789.dir/objects.a @CMakeFiles\cmTC_7d789.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_BOOL_T  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_7d789.dir/objects.a -Wl,--no-whole-archive -o cmTC_7d789.exe -Wl,--out-implib,libcmTC_7d789.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7d789.dir\linkLibs.rsp
-mingw32-make[1]: Leaving directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_c9a5c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c9a5c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c9a5c.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_c9a5c.dir/objects.a @CMakeFiles\cmTC_c9a5c.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_BOOL_T  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_c9a5c.dir/objects.a -Wl,--no-whole-archive -o cmTC_c9a5c.exe -Wl,--out-implib,libcmTC_c9a5c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c9a5c.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
 
 Performing Curl Test HAVE_FILE_OFFSET_BITS passed with the following output:
-Change Dir: 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Change Dir: 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_912d5/fast
-C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_912d5.dir\build.make CMakeFiles/cmTC_912d5.dir/build
-mingw32-make[1]: Entering directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_912d5.dir/CurlTests.c.obj
-C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_912d5.dir\CurlTests.c.obj -c D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:302:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_5bf32/fast
+C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5bf32.dir\build.make CMakeFiles/cmTC_5bf32.dir/build
+mingw32-make[1]: Entering directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bf32.dir/CurlTests.c.obj
+C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_5bf32.dir\CurlTests.c.obj -c D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:302:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   302 | int main () { ; return 0; }
       |     ^~~~
-Linking C executable cmTC_912d5.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_912d5.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_912d5.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_912d5.dir/objects.a @CMakeFiles\cmTC_912d5.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_912d5.dir/objects.a -Wl,--no-whole-archive -o cmTC_912d5.exe -Wl,--out-implib,libcmTC_912d5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_912d5.dir\linkLibs.rsp
-mingw32-make[1]: Leaving directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_5bf32.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5bf32.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5bf32.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_5bf32.dir/objects.a @CMakeFiles\cmTC_5bf32.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_5bf32.dir/objects.a -Wl,--no-whole-archive -o cmTC_5bf32.exe -Wl,--out-implib,libcmTC_5bf32.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5bf32.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
 
 Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
-Change Dir: 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Change Dir: 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_9d2f6/fast
-C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9d2f6.dir\build.make CMakeFiles/cmTC_9d2f6.dir/build
-mingw32-make[1]: Entering directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9d2f6.dir/CurlTests.c.obj
-C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_VARIADIC_MACROS_C99  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_9d2f6.dir\CurlTests.c.obj -c D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:587:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_64e27/fast
+C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_64e27.dir\build.make CMakeFiles/cmTC_64e27.dir/build
+mingw32-make[1]: Entering directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64e27.dir/CurlTests.c.obj
+C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_VARIADIC_MACROS_C99  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_64e27.dir\CurlTests.c.obj -c D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:587:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   587 | main() {
       | ^~~~
-Linking C executable cmTC_9d2f6.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9d2f6.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_9d2f6.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_9d2f6.dir/objects.a @CMakeFiles\cmTC_9d2f6.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_VARIADIC_MACROS_C99  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_9d2f6.dir/objects.a -Wl,--no-whole-archive -o cmTC_9d2f6.exe -Wl,--out-implib,libcmTC_9d2f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9d2f6.dir\linkLibs.rsp
-mingw32-make[1]: Leaving directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_64e27.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_64e27.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_64e27.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_64e27.dir/objects.a @CMakeFiles\cmTC_64e27.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_VARIADIC_MACROS_C99  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_64e27.dir/objects.a -Wl,--no-whole-archive -o cmTC_64e27.exe -Wl,--out-implib,libcmTC_64e27.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_64e27.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
 
 Performing Curl Test HAVE_VARIADIC_MACROS_GCC passed with the following output:
-Change Dir: 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Change Dir: 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_46796/fast
-C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_46796.dir\build.make CMakeFiles/cmTC_46796.dir/build
-mingw32-make[1]: Entering directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_46796.dir/CurlTests.c.obj
-C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_46796.dir\CurlTests.c.obj -c D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:596:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_212fb/fast
+C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_212fb.dir\build.make CMakeFiles/cmTC_212fb.dir/build
+mingw32-make[1]: Entering directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_212fb.dir/CurlTests.c.obj
+C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_212fb.dir\CurlTests.c.obj -c D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:596:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
   596 | #define gcc_vmacro3(first, args...) fun3(first, args)
       |                                ^~~
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:597:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:597:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
   597 | #define gcc_vmacro2(first, args...) fun2(first, args)
       |                                ^~~
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:610:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:610:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   610 | main() {
       | ^~~~
-Linking C executable cmTC_46796.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_46796.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_46796.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_46796.dir/objects.a @CMakeFiles\cmTC_46796.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_46796.dir/objects.a -Wl,--no-whole-archive -o cmTC_46796.exe -Wl,--out-implib,libcmTC_46796.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_46796.dir\linkLibs.rsp
-mingw32-make[1]: Leaving directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_212fb.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_212fb.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_212fb.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_212fb.dir/objects.a @CMakeFiles\cmTC_212fb.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_212fb.dir/objects.a -Wl,--no-whole-archive -o cmTC_212fb.exe -Wl,--out-implib,libcmTC_212fb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_212fb.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
 
 Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC passed with the following output:
-Change Dir: 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Change Dir: 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1a24a/fast
-C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1a24a.dir\build.make CMakeFiles/cmTC_1a24a.dir/build
-mingw32-make[1]: Entering directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a24a.dir/CurlTests.c.obj
-C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_1a24a.dir\CurlTests.c.obj -c D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
-D:\VSCode\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:559:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d9672/fast
+C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d9672.dir\build.make CMakeFiles/cmTC_d9672.dir/build
+mingw32-make[1]: Entering directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9672.dir/CurlTests.c.obj
+C:\msys64\ucrt64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_d9672.dir\CurlTests.c.obj -c D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c
+D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\CMake\CurlTests.c:559:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   559 | main() {
       | ^~~~
-Linking C executable cmTC_1a24a.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1a24a.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1a24a.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_1a24a.dir/objects.a @CMakeFiles\cmTC_1a24a.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_1a24a.dir/objects.a -Wl,--no-whole-archive -o cmTC_1a24a.exe -Wl,--out-implib,libcmTC_1a24a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1a24a.dir\linkLibs.rsp
-mingw32-make[1]: Leaving directory 'D:/VSCode/UserQueries/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_d9672.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d9672.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d9672.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_d9672.dir/objects.a @CMakeFiles\cmTC_d9672.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_d9672.dir/objects.a -Wl,--no-whole-archive -o cmTC_d9672.exe -Wl,--out-implib,libcmTC_d9672.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d9672.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/VSCode/exemple4/UserQueries/build/CMakeFiles/CMakeTmp'
 
 

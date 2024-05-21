@@ -1,6 +1,6 @@
 _deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.obj: \
- D:\VSCode\UserQueries\build\_deps\mongoose-src\mongoose.c \
- D:\VSCode\UserQueries\build\_deps\mongoose-src\mongoose.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-src\mongoose.c \
+ D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-src\mongoose.h \
  C:/msys64/ucrt64/include/assert.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \

@@ -1,9 +1,9 @@
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj: \
- D:\VSCode\UserQueries\build\_deps\cpr-src\cpr\cprtypes.cpp \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/cprtypes.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/system.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\cpr-src\cpr\cprtypes.cpp \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/cprtypes.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/system.h \
  C:/msys64/ucrt64/include/winsock2.h \
  C:/msys64/ucrt64/include/_mingw_unicode.h \
  C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/_mingw.h \
@@ -238,11 +238,11 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj: \
  C:/msys64/ucrt64/include/time.h C:/msys64/ucrt64/include/sys/timeb.h \
  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
  C:/msys64/ucrt64/include/pthread_time.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/easy.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/multi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/options.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/easy.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/multi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/options.h \
  C:/msys64/ucrt64/include/c++/13.2.0/initializer_list \
  C:/msys64/ucrt64/include/c++/13.2.0/map \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \

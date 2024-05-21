@@ -67,9 +67,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/zlib.dir/uncompr.c.obj.d"
   "CMakeFiles/zlib.dir/zutil.c.obj"
   "CMakeFiles/zlib.dir/zutil.c.obj.d"
-  "D:/VSCode/UserQueries/bin/libzlib.dll"
-  "D:/VSCode/UserQueries/bin/libzlib.dll.manifest"
-  "D:/VSCode/UserQueries/bin/libzlib.pdb"
+  "D:/VSCode/exemple4/UserQueries/bin/libzlib.dll"
+  "D:/VSCode/exemple4/UserQueries/bin/libzlib.dll.manifest"
+  "D:/VSCode/exemple4/UserQueries/bin/libzlib.pdb"
   "libzlib.dll.a"
   "zlib1rc.obj"
 )

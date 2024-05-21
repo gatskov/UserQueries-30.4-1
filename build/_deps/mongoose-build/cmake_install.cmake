@@ -1,8 +1,8 @@
-# Install script for directory: D:/VSCode/UserQueries/build/_deps/mongoose-src
+# Install script for directory: D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Httpbin")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/USERQUERES")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

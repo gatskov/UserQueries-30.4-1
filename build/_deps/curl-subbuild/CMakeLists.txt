@@ -20,8 +20,8 @@ project(curl-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(curl-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/curl/curl/releases/download/curl-7_75_0/curl-7.75.0.tar.xz" "URL_HASH" "SHA256=fe0c49d8468249000bda75bcfdf9e30ff7e9a86d35f1a21f428d79c389d55675"
-                    SOURCE_DIR          "D:/VSCode/UserQueries/build/_deps/curl-src"
-                    BINARY_DIR          "D:/VSCode/UserQueries/build/_deps/curl-build"
+                    SOURCE_DIR          "D:/VSCode/exemple4/UserQueries/build/_deps/curl-src"
+                    BINARY_DIR          "D:/VSCode/exemple4/UserQueries/build/_deps/curl-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

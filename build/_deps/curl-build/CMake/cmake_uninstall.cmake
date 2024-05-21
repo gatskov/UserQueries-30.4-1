@@ -19,16 +19,16 @@
 # KIND, either express or implied.
 #
 ###########################################################################
-if(NOT EXISTS "D:/VSCode/UserQueries/build/_deps/curl-build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: D:/VSCode/UserQueries/build/_deps/curl-build/install_manifest.txt")
+if(NOT EXISTS "D:/VSCode/exemple4/UserQueries/build/_deps/curl-build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: D:/VSCode/exemple4/UserQueries/build/_deps/curl-build/install_manifest.txt")
 endif()
 
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Httpbin")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/USERQUERES")
 endif()
 message(${CMAKE_INSTALL_PREFIX})
 
-file(READ "D:/VSCode/UserQueries/build/_deps/curl-build/install_manifest.txt" files)
+file(READ "D:/VSCode/exemple4/UserQueries/build/_deps/curl-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

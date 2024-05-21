@@ -11,7 +11,7 @@ C_FLAGS =  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow 
 
 RC_DEFINES = -DBUILDING_LIBCURL -DCPR_BUILD_TESTS -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -D_USRDLL -D_WIN32_WINNT=0x0600 -Dlibcurl_EXPORTS
 
-RC_INCLUDES = -I D:\VSCode\UserQueries\build\_deps\curl-src\include -I D:\VSCode\UserQueries\build\_deps\curl-build\lib\..\include -I D:\VSCode\UserQueries\build\_deps\curl-src\lib\.. -I D:\VSCode\UserQueries\build\_deps\curl-src\lib\..\include -I D:\VSCode\UserQueries\build\_deps\curl-build\lib\.. -I D:\VSCode\UserQueries\build\_deps\curl-src\lib -I D:\VSCode\UserQueries\build\_deps\curl-build\lib
+RC_INCLUDES = -I D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\include -I D:\VSCode\exemple4\UserQueries\build\_deps\curl-build\lib\..\include -I D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\.. -I D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib\..\include -I D:\VSCode\exemple4\UserQueries\build\_deps\curl-build\lib\.. -I D:\VSCode\exemple4\UserQueries\build\_deps\curl-src\lib -I D:\VSCode\exemple4\UserQueries\build\_deps\curl-build\lib
 
 RC_FLAGS =  -DCURL_EMBED_MANIFEST
 

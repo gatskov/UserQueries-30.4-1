@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(cpr-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/libcpr/cpr.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "f4622efcb59d84071ae11404ae61bd821c1c344b"
-                    SOURCE_DIR          "D:/VSCode/UserQueries/build/_deps/cpr-src"
-                    BINARY_DIR          "D:/VSCode/UserQueries/build/_deps/cpr-build"
+                    SOURCE_DIR          "D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src"
+                    BINARY_DIR          "D:/VSCode/exemple4/UserQueries/build/_deps/cpr-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

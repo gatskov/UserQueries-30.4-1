@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "D:/VSCode/UserQueries/build/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.10.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "D:/VSCode/UserQueries/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "D:/VSCode/exemple4/UserQueries/build/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.10.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "D:/VSCode/exemple4/UserQueries/build/_deps/googletest-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

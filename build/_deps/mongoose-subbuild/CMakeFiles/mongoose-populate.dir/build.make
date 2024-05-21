@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VSCode\UserQueries\build\_deps\mongoose-subbuild
+CMAKE_SOURCE_DIR = D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VSCode\UserQueries\build\_deps\mongoose-subbuild
+CMAKE_BINARY_DIR = D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild
 
 # Utility rule file for mongoose-populate.
 
@@ -76,57 +76,57 @@ CMakeFiles/mongoose-populate-complete: mongoose-populate-prefix/src/mongoose-pop
 CMakeFiles/mongoose-populate-complete: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-build
 CMakeFiles/mongoose-populate-complete: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-install
 CMakeFiles/mongoose-populate-complete: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'mongoose-populate'"
-	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/CMakeFiles
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/CMakeFiles/mongoose-populate-complete
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'mongoose-populate'"
+	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/CMakeFiles
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/CMakeFiles/mongoose-populate-complete
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-done
 
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-build: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'mongoose-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d D:\VSCode\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'mongoose-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-build
 
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-configure: mongoose-populate-prefix/tmp/mongoose-populate-cfgcmd.txt
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-configure: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'mongoose-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d D:\VSCode\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'mongoose-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-configure
 
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-download: mongoose-populate-prefix/src/mongoose-populate-stamp/download-mongoose-populate.cmake
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-download: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-urlinfo.txt
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-download: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'mongoose-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/download-mongoose-populate.cmake
-	cd /d D:\VSCode\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/verify-mongoose-populate.cmake
-	cd /d D:\VSCode\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/extract-mongoose-populate.cmake
-	cd /d D:\VSCode\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'mongoose-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/download-mongoose-populate.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/verify-mongoose-populate.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -P D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/extract-mongoose-populate.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-download
 
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-install: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'mongoose-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d D:\VSCode\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'mongoose-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-install
 
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'mongoose-populate'"
-	"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/tmp/mongoose-populate-mkdirs.cmake
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'mongoose-populate'"
+	"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/tmp/mongoose-populate-mkdirs.cmake
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-mkdir
 
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-patch: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-patch-info.txt
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-patch: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'mongoose-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'mongoose-populate'"
 	"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-patch
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-patch
 
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-test: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'mongoose-populate'"
-	cd /d D:\VSCode\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d D:\VSCode\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'mongoose-populate'"
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-test
 
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-update: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-update-info.txt
 mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-update: mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'mongoose-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'mongoose-populate'"
 	"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-update
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/mongoose-populate-update
 
 mongoose-populate: CMakeFiles/mongoose-populate
 mongoose-populate: CMakeFiles/mongoose-populate-complete
@@ -150,6 +150,6 @@ CMakeFiles/mongoose-populate.dir/clean:
 .PHONY : CMakeFiles/mongoose-populate.dir/clean
 
 CMakeFiles/mongoose-populate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCode\UserQueries\build\_deps\mongoose-subbuild D:\VSCode\UserQueries\build\_deps\mongoose-subbuild D:\VSCode\UserQueries\build\_deps\mongoose-subbuild D:\VSCode\UserQueries\build\_deps\mongoose-subbuild D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles\mongoose-populate.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles\mongoose-populate.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mongoose-populate.dir/depend
 

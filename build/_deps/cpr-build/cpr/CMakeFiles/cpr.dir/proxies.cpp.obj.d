@@ -1,6 +1,6 @@
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj: \
- D:\VSCode\UserQueries\build\_deps\cpr-src\cpr\proxies.cpp \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/proxies.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\cpr-src\cpr\proxies.cpp \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/proxies.h \
  C:/msys64/ucrt64/include/c++/13.2.0/initializer_list \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \

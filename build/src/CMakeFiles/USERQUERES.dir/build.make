@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VSCode\UserQueries
+CMAKE_SOURCE_DIR = D:\VSCode\exemple4\UserQueries
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VSCode\UserQueries\build
+CMAKE_BINARY_DIR = D:\VSCode\exemple4\UserQueries\build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/USERQUERES.dir/depend.make
@@ -70,18 +70,18 @@ include src/CMakeFiles/USERQUERES.dir/flags.make
 
 src/CMakeFiles/USERQUERES.dir/main.cpp.obj: src/CMakeFiles/USERQUERES.dir/flags.make
 src/CMakeFiles/USERQUERES.dir/main.cpp.obj: src/CMakeFiles/USERQUERES.dir/includes_CXX.rsp
-src/CMakeFiles/USERQUERES.dir/main.cpp.obj: D:/VSCode/UserQueries/src/main.cpp
+src/CMakeFiles/USERQUERES.dir/main.cpp.obj: D:/VSCode/exemple4/UserQueries/src/main.cpp
 src/CMakeFiles/USERQUERES.dir/main.cpp.obj: src/CMakeFiles/USERQUERES.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\VSCode\UserQueries\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/USERQUERES.dir/main.cpp.obj"
-	cd /d D:\VSCode\UserQueries\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/USERQUERES.dir/main.cpp.obj -MF CMakeFiles\USERQUERES.dir\main.cpp.obj.d -o CMakeFiles\USERQUERES.dir\main.cpp.obj -c D:\VSCode\UserQueries\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\VSCode\exemple4\UserQueries\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/USERQUERES.dir/main.cpp.obj"
+	cd /d D:\VSCode\exemple4\UserQueries\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/USERQUERES.dir/main.cpp.obj -MF CMakeFiles\USERQUERES.dir\main.cpp.obj.d -o CMakeFiles\USERQUERES.dir\main.cpp.obj -c D:\VSCode\exemple4\UserQueries\src\main.cpp
 
 src/CMakeFiles/USERQUERES.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/USERQUERES.dir/main.cpp.i"
-	cd /d D:\VSCode\UserQueries\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\VSCode\UserQueries\src\main.cpp > CMakeFiles\USERQUERES.dir\main.cpp.i
+	cd /d D:\VSCode\exemple4\UserQueries\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\VSCode\exemple4\UserQueries\src\main.cpp > CMakeFiles\USERQUERES.dir\main.cpp.i
 
 src/CMakeFiles/USERQUERES.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/USERQUERES.dir/main.cpp.s"
-	cd /d D:\VSCode\UserQueries\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\VSCode\UserQueries\src\main.cpp -o CMakeFiles\USERQUERES.dir\main.cpp.s
+	cd /d D:\VSCode\exemple4\UserQueries\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\VSCode\exemple4\UserQueries\src\main.cpp -o CMakeFiles\USERQUERES.dir\main.cpp.s
 
 # Object files for target USERQUERES
 USERQUERES_OBJECTS = \
@@ -90,25 +90,25 @@ USERQUERES_OBJECTS = \
 # External object files for target USERQUERES
 USERQUERES_EXTERNAL_OBJECTS =
 
-D:/VSCode/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/main.cpp.obj
-D:/VSCode/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/build.make
-D:/VSCode/UserQueries/bin/USERQUERES.exe: _deps/cpr-build/cpr/libcpr.dll.a
-D:/VSCode/UserQueries/bin/USERQUERES.exe: _deps/curl-build/lib/libcurl-d_imp.lib
-D:/VSCode/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/linkLibs.rsp
-D:/VSCode/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/objects1.rsp
-D:/VSCode/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\VSCode\UserQueries\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable D:\VSCode\UserQueries\bin\USERQUERES.exe"
-	cd /d D:\VSCode\UserQueries\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\USERQUERES.dir\link.txt --verbose=$(VERBOSE)
+D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/main.cpp.obj
+D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/build.make
+D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe: _deps/cpr-build/cpr/libcpr.dll.a
+D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe: _deps/curl-build/lib/libcurl-d_imp.lib
+D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/linkLibs.rsp
+D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/objects1.rsp
+D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe: src/CMakeFiles/USERQUERES.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\VSCode\exemple4\UserQueries\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable D:\VSCode\exemple4\UserQueries\bin\USERQUERES.exe"
+	cd /d D:\VSCode\exemple4\UserQueries\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\USERQUERES.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/USERQUERES.dir/build: D:/VSCode/UserQueries/bin/USERQUERES.exe
+src/CMakeFiles/USERQUERES.dir/build: D:/VSCode/exemple4/UserQueries/bin/USERQUERES.exe
 .PHONY : src/CMakeFiles/USERQUERES.dir/build
 
 src/CMakeFiles/USERQUERES.dir/clean:
-	cd /d D:\VSCode\UserQueries\build\src && $(CMAKE_COMMAND) -P CMakeFiles\USERQUERES.dir\cmake_clean.cmake
+	cd /d D:\VSCode\exemple4\UserQueries\build\src && $(CMAKE_COMMAND) -P CMakeFiles\USERQUERES.dir\cmake_clean.cmake
 .PHONY : src/CMakeFiles/USERQUERES.dir/clean
 
 src/CMakeFiles/USERQUERES.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCode\UserQueries D:\VSCode\UserQueries\src D:\VSCode\UserQueries\build D:\VSCode\UserQueries\build\src D:\VSCode\UserQueries\build\src\CMakeFiles\USERQUERES.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCode\exemple4\UserQueries D:\VSCode\exemple4\UserQueries\src D:\VSCode\exemple4\UserQueries\build D:\VSCode\exemple4\UserQueries\build\src D:\VSCode\exemple4\UserQueries\build\src\CMakeFiles\USERQUERES.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/USERQUERES.dir/depend
 

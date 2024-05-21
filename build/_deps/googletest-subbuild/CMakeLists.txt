@@ -20,8 +20,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/google/googletest/archive/release-1.10.0.tar.gz" "URL_HASH" "SHA256=9dc9157a9a1551ec7a7e43daea9a694a0bb5fb8bec81235d8a1e6ef64c716dcb"
-                    SOURCE_DIR          "D:/VSCode/UserQueries/build/_deps/googletest-src"
-                    BINARY_DIR          "D:/VSCode/UserQueries/build/_deps/googletest-build"
+                    SOURCE_DIR          "D:/VSCode/exemple4/UserQueries/build/_deps/googletest-src"
+                    BINARY_DIR          "D:/VSCode/exemple4/UserQueries/build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

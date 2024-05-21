@@ -302,9 +302,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/libcurl.dir/wildcard.c.obj.d"
   "CMakeFiles/libcurl.dir/x509asn1.c.obj"
   "CMakeFiles/libcurl.dir/x509asn1.c.obj.d"
-  "D:/VSCode/UserQueries/bin/libcurl-d.dll"
-  "D:/VSCode/UserQueries/bin/libcurl-d.dll.manifest"
-  "D:/VSCode/UserQueries/bin/libcurl-d.pdb"
+  "D:/VSCode/exemple4/UserQueries/bin/libcurl-d.dll"
+  "D:/VSCode/exemple4/UserQueries/bin/libcurl-d.dll.manifest"
+  "D:/VSCode/exemple4/UserQueries/bin/libcurl-d.pdb"
   "libcurl-d_imp.lib"
 )
 

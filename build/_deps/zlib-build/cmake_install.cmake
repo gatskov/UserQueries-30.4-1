@@ -1,8 +1,8 @@
-# Install script for directory: D:/VSCode/UserQueries/build/_deps/zlib-src
+# Install script for directory: D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Httpbin")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/USERQUERES")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,79 +39,79 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/Httpbin/lib/libzlib.dll.a")
+   "C:/Program Files (x86)/USERQUERES/lib/libzlib.dll.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files (x86)/Httpbin/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/VSCode/UserQueries/build/_deps/zlib-build/libzlib.dll.a")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/USERQUERES/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-build/libzlib.dll.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/Httpbin/bin/libzlib.dll")
+   "C:/Program Files (x86)/USERQUERES/bin/libzlib.dll")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files (x86)/Httpbin/bin" TYPE SHARED_LIBRARY FILES "D:/VSCode/UserQueries/bin/libzlib.dll")
-  if(EXISTS "$ENV{DESTDIR}/C:/Program Files (x86)/Httpbin/bin/libzlib.dll" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/C:/Program Files (x86)/Httpbin/bin/libzlib.dll")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/USERQUERES/bin" TYPE SHARED_LIBRARY FILES "D:/VSCode/exemple4/UserQueries/bin/libzlib.dll")
+  if(EXISTS "$ENV{DESTDIR}/C:/Program Files (x86)/USERQUERES/bin/libzlib.dll" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/C:/Program Files (x86)/USERQUERES/bin/libzlib.dll")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "C:/msys64/ucrt64/bin/strip.exe" "$ENV{DESTDIR}/C:/Program Files (x86)/Httpbin/bin/libzlib.dll")
+      execute_process(COMMAND "C:/msys64/ucrt64/bin/strip.exe" "$ENV{DESTDIR}/C:/Program Files (x86)/USERQUERES/bin/libzlib.dll")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/Httpbin/include/zlib.h")
+   "C:/Program Files (x86)/USERQUERES/include/zlib.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files (x86)/Httpbin/include" TYPE FILE RENAME "zlib.h" FILES "D:/VSCode/UserQueries/build/_deps/zlib-src/zlib.h")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/USERQUERES/include" TYPE FILE RENAME "zlib.h" FILES "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/zlib.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/Httpbin/include/zconf.h")
+   "C:/Program Files (x86)/USERQUERES/include/zconf.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files (x86)/Httpbin/include" TYPE FILE RENAME "zconf.h" FILES "D:/VSCode/UserQueries/build/_deps/zlib-build/zconf.h")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/USERQUERES/include" TYPE FILE RENAME "zconf.h" FILES "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-build/zconf.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/Httpbin/share/man/man3/zlib.3")
+   "C:/Program Files (x86)/USERQUERES/share/man/man3/zlib.3")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files (x86)/Httpbin/share/man/man3" TYPE FILE RENAME "zlib.3" FILES "D:/VSCode/UserQueries/build/_deps/zlib-src/zlib.3")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/USERQUERES/share/man/man3" TYPE FILE RENAME "zlib.3" FILES "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src/zlib.3")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Program Files (x86)/Httpbin/lib/pkgconfig/zlib.pc")
+   "C:/Program Files (x86)/USERQUERES/lib/pkgconfig/zlib.pc")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files (x86)/Httpbin/lib/pkgconfig" TYPE FILE FILES "D:/VSCode/UserQueries/build/_deps/zlib-build/zlib.pc")
+  file(INSTALL DESTINATION "C:/Program Files (x86)/USERQUERES/lib/pkgconfig" TYPE FILE FILES "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-build/zlib.pc")
 endif()
 

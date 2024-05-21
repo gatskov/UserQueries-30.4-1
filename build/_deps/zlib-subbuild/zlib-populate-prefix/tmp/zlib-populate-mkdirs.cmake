@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "D:/VSCode/UserQueries/build/_deps/zlib-src"
-  "D:/VSCode/UserQueries/build/_deps/zlib-build"
-  "D:/VSCode/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix"
-  "D:/VSCode/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp"
-  "D:/VSCode/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp"
-  "D:/VSCode/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src"
-  "D:/VSCode/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp"
+  "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-src"
+  "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-build"
+  "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix"
+  "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp"
+  "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp"
+  "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src"
+  "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/VSCode/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/VSCode/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/VSCode/exemple4/UserQueries/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

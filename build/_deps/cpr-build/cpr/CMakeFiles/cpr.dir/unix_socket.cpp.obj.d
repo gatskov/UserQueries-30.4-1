@@ -1,6 +1,6 @@
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj: \
- D:\VSCode\UserQueries\build\_deps\cpr-src\cpr\unix_socket.cpp \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/unix_socket.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\cpr-src\cpr\unix_socket.cpp \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/unix_socket.h \
  C:/msys64/ucrt64/include/c++/13.2.0/string \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \

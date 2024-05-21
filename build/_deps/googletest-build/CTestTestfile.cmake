@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: D:/VSCode/UserQueries/build/_deps/googletest-src
-# Build directory: D:/VSCode/UserQueries/build/_deps/googletest-build
+# Source directory: D:/VSCode/exemple4/UserQueries/build/_deps/googletest-src
+# Build directory: D:/VSCode/exemple4/UserQueries/build/_deps/googletest-build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

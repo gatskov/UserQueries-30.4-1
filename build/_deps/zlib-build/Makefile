@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VSCode\UserQueries
+CMAKE_SOURCE_DIR = D:\VSCode\exemple4\UserQueries
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VSCode\UserQueries\build
+CMAKE_BINARY_DIR = D:\VSCode\exemple4\UserQueries\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\UserQueries\build\CMakeFiles D:\VSCode\UserQueries\build\_deps\zlib-build\\CMakeFiles\progress.marks
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\UserQueries\build\CMakeFiles 0
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\exemple4\UserQueries\build\CMakeFiles D:\VSCode\exemple4\UserQueries\build\_deps\zlib-build\\CMakeFiles\progress.marks
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\exemple4\UserQueries\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/clean
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/preinstall
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/preinstall
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/zlib-build/CMakeFiles/zlib.dir/rule:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/CMakeFiles/zlib.dir/rule
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/CMakeFiles/zlib.dir/rule
 .PHONY : _deps/zlib-build/CMakeFiles/zlib.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ zlib: _deps/zlib-build/CMakeFiles/zlib.dir/rule
 
 # fast build rule for target.
 zlib/fast:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/build
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/build
 .PHONY : zlib/fast
 
 adler32.obj: adler32.c.obj
@@ -179,7 +179,7 @@ adler32.obj: adler32.c.obj
 
 # target to build an object file
 adler32.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/adler32.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/adler32.c.obj
 .PHONY : adler32.c.obj
 
 adler32.i: adler32.c.i
@@ -187,7 +187,7 @@ adler32.i: adler32.c.i
 
 # target to preprocess a source file
 adler32.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/adler32.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/adler32.c.i
 .PHONY : adler32.c.i
 
 adler32.s: adler32.c.s
@@ -195,7 +195,7 @@ adler32.s: adler32.c.s
 
 # target to generate assembly for a file
 adler32.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/adler32.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/adler32.c.s
 .PHONY : adler32.c.s
 
 arch/x86/adler32_avx.obj: arch/x86/adler32_avx.c.obj
@@ -203,7 +203,7 @@ arch/x86/adler32_avx.obj: arch/x86/adler32_avx.c.obj
 
 # target to build an object file
 arch/x86/adler32_avx.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_avx.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_avx.c.obj
 .PHONY : arch/x86/adler32_avx.c.obj
 
 arch/x86/adler32_avx.i: arch/x86/adler32_avx.c.i
@@ -211,7 +211,7 @@ arch/x86/adler32_avx.i: arch/x86/adler32_avx.c.i
 
 # target to preprocess a source file
 arch/x86/adler32_avx.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_avx.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_avx.c.i
 .PHONY : arch/x86/adler32_avx.c.i
 
 arch/x86/adler32_avx.s: arch/x86/adler32_avx.c.s
@@ -219,7 +219,7 @@ arch/x86/adler32_avx.s: arch/x86/adler32_avx.c.s
 
 # target to generate assembly for a file
 arch/x86/adler32_avx.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_avx.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_avx.c.s
 .PHONY : arch/x86/adler32_avx.c.s
 
 arch/x86/adler32_ssse3.obj: arch/x86/adler32_ssse3.c.obj
@@ -227,7 +227,7 @@ arch/x86/adler32_ssse3.obj: arch/x86/adler32_ssse3.c.obj
 
 # target to build an object file
 arch/x86/adler32_ssse3.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_ssse3.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_ssse3.c.obj
 .PHONY : arch/x86/adler32_ssse3.c.obj
 
 arch/x86/adler32_ssse3.i: arch/x86/adler32_ssse3.c.i
@@ -235,7 +235,7 @@ arch/x86/adler32_ssse3.i: arch/x86/adler32_ssse3.c.i
 
 # target to preprocess a source file
 arch/x86/adler32_ssse3.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_ssse3.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_ssse3.c.i
 .PHONY : arch/x86/adler32_ssse3.c.i
 
 arch/x86/adler32_ssse3.s: arch/x86/adler32_ssse3.c.s
@@ -243,7 +243,7 @@ arch/x86/adler32_ssse3.s: arch/x86/adler32_ssse3.c.s
 
 # target to generate assembly for a file
 arch/x86/adler32_ssse3.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_ssse3.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_ssse3.c.s
 .PHONY : arch/x86/adler32_ssse3.c.s
 
 arch/x86/chunkset_avx.obj: arch/x86/chunkset_avx.c.obj
@@ -251,7 +251,7 @@ arch/x86/chunkset_avx.obj: arch/x86/chunkset_avx.c.obj
 
 # target to build an object file
 arch/x86/chunkset_avx.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_avx.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_avx.c.obj
 .PHONY : arch/x86/chunkset_avx.c.obj
 
 arch/x86/chunkset_avx.i: arch/x86/chunkset_avx.c.i
@@ -259,7 +259,7 @@ arch/x86/chunkset_avx.i: arch/x86/chunkset_avx.c.i
 
 # target to preprocess a source file
 arch/x86/chunkset_avx.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_avx.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_avx.c.i
 .PHONY : arch/x86/chunkset_avx.c.i
 
 arch/x86/chunkset_avx.s: arch/x86/chunkset_avx.c.s
@@ -267,7 +267,7 @@ arch/x86/chunkset_avx.s: arch/x86/chunkset_avx.c.s
 
 # target to generate assembly for a file
 arch/x86/chunkset_avx.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_avx.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_avx.c.s
 .PHONY : arch/x86/chunkset_avx.c.s
 
 arch/x86/chunkset_sse.obj: arch/x86/chunkset_sse.c.obj
@@ -275,7 +275,7 @@ arch/x86/chunkset_sse.obj: arch/x86/chunkset_sse.c.obj
 
 # target to build an object file
 arch/x86/chunkset_sse.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_sse.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_sse.c.obj
 .PHONY : arch/x86/chunkset_sse.c.obj
 
 arch/x86/chunkset_sse.i: arch/x86/chunkset_sse.c.i
@@ -283,7 +283,7 @@ arch/x86/chunkset_sse.i: arch/x86/chunkset_sse.c.i
 
 # target to preprocess a source file
 arch/x86/chunkset_sse.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_sse.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_sse.c.i
 .PHONY : arch/x86/chunkset_sse.c.i
 
 arch/x86/chunkset_sse.s: arch/x86/chunkset_sse.c.s
@@ -291,7 +291,7 @@ arch/x86/chunkset_sse.s: arch/x86/chunkset_sse.c.s
 
 # target to generate assembly for a file
 arch/x86/chunkset_sse.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_sse.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_sse.c.s
 .PHONY : arch/x86/chunkset_sse.c.s
 
 arch/x86/compare258_avx.obj: arch/x86/compare258_avx.c.obj
@@ -299,7 +299,7 @@ arch/x86/compare258_avx.obj: arch/x86/compare258_avx.c.obj
 
 # target to build an object file
 arch/x86/compare258_avx.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_avx.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_avx.c.obj
 .PHONY : arch/x86/compare258_avx.c.obj
 
 arch/x86/compare258_avx.i: arch/x86/compare258_avx.c.i
@@ -307,7 +307,7 @@ arch/x86/compare258_avx.i: arch/x86/compare258_avx.c.i
 
 # target to preprocess a source file
 arch/x86/compare258_avx.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_avx.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_avx.c.i
 .PHONY : arch/x86/compare258_avx.c.i
 
 arch/x86/compare258_avx.s: arch/x86/compare258_avx.c.s
@@ -315,7 +315,7 @@ arch/x86/compare258_avx.s: arch/x86/compare258_avx.c.s
 
 # target to generate assembly for a file
 arch/x86/compare258_avx.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_avx.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_avx.c.s
 .PHONY : arch/x86/compare258_avx.c.s
 
 arch/x86/compare258_sse.obj: arch/x86/compare258_sse.c.obj
@@ -323,7 +323,7 @@ arch/x86/compare258_sse.obj: arch/x86/compare258_sse.c.obj
 
 # target to build an object file
 arch/x86/compare258_sse.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_sse.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_sse.c.obj
 .PHONY : arch/x86/compare258_sse.c.obj
 
 arch/x86/compare258_sse.i: arch/x86/compare258_sse.c.i
@@ -331,7 +331,7 @@ arch/x86/compare258_sse.i: arch/x86/compare258_sse.c.i
 
 # target to preprocess a source file
 arch/x86/compare258_sse.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_sse.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_sse.c.i
 .PHONY : arch/x86/compare258_sse.c.i
 
 arch/x86/compare258_sse.s: arch/x86/compare258_sse.c.s
@@ -339,7 +339,7 @@ arch/x86/compare258_sse.s: arch/x86/compare258_sse.c.s
 
 # target to generate assembly for a file
 arch/x86/compare258_sse.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_sse.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_sse.c.s
 .PHONY : arch/x86/compare258_sse.c.s
 
 arch/x86/crc_folding.obj: arch/x86/crc_folding.c.obj
@@ -347,7 +347,7 @@ arch/x86/crc_folding.obj: arch/x86/crc_folding.c.obj
 
 # target to build an object file
 arch/x86/crc_folding.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/crc_folding.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/crc_folding.c.obj
 .PHONY : arch/x86/crc_folding.c.obj
 
 arch/x86/crc_folding.i: arch/x86/crc_folding.c.i
@@ -355,7 +355,7 @@ arch/x86/crc_folding.i: arch/x86/crc_folding.c.i
 
 # target to preprocess a source file
 arch/x86/crc_folding.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/crc_folding.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/crc_folding.c.i
 .PHONY : arch/x86/crc_folding.c.i
 
 arch/x86/crc_folding.s: arch/x86/crc_folding.c.s
@@ -363,7 +363,7 @@ arch/x86/crc_folding.s: arch/x86/crc_folding.c.s
 
 # target to generate assembly for a file
 arch/x86/crc_folding.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/crc_folding.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/crc_folding.c.s
 .PHONY : arch/x86/crc_folding.c.s
 
 arch/x86/insert_string_sse.obj: arch/x86/insert_string_sse.c.obj
@@ -371,7 +371,7 @@ arch/x86/insert_string_sse.obj: arch/x86/insert_string_sse.c.obj
 
 # target to build an object file
 arch/x86/insert_string_sse.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/insert_string_sse.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/insert_string_sse.c.obj
 .PHONY : arch/x86/insert_string_sse.c.obj
 
 arch/x86/insert_string_sse.i: arch/x86/insert_string_sse.c.i
@@ -379,7 +379,7 @@ arch/x86/insert_string_sse.i: arch/x86/insert_string_sse.c.i
 
 # target to preprocess a source file
 arch/x86/insert_string_sse.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/insert_string_sse.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/insert_string_sse.c.i
 .PHONY : arch/x86/insert_string_sse.c.i
 
 arch/x86/insert_string_sse.s: arch/x86/insert_string_sse.c.s
@@ -387,7 +387,7 @@ arch/x86/insert_string_sse.s: arch/x86/insert_string_sse.c.s
 
 # target to generate assembly for a file
 arch/x86/insert_string_sse.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/insert_string_sse.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/insert_string_sse.c.s
 .PHONY : arch/x86/insert_string_sse.c.s
 
 arch/x86/slide_avx.obj: arch/x86/slide_avx.c.obj
@@ -395,7 +395,7 @@ arch/x86/slide_avx.obj: arch/x86/slide_avx.c.obj
 
 # target to build an object file
 arch/x86/slide_avx.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.obj
 .PHONY : arch/x86/slide_avx.c.obj
 
 arch/x86/slide_avx.i: arch/x86/slide_avx.c.i
@@ -403,7 +403,7 @@ arch/x86/slide_avx.i: arch/x86/slide_avx.c.i
 
 # target to preprocess a source file
 arch/x86/slide_avx.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.i
 .PHONY : arch/x86/slide_avx.c.i
 
 arch/x86/slide_avx.s: arch/x86/slide_avx.c.s
@@ -411,7 +411,7 @@ arch/x86/slide_avx.s: arch/x86/slide_avx.c.s
 
 # target to generate assembly for a file
 arch/x86/slide_avx.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.s
 .PHONY : arch/x86/slide_avx.c.s
 
 arch/x86/slide_sse.obj: arch/x86/slide_sse.c.obj
@@ -419,7 +419,7 @@ arch/x86/slide_sse.obj: arch/x86/slide_sse.c.obj
 
 # target to build an object file
 arch/x86/slide_sse.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_sse.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_sse.c.obj
 .PHONY : arch/x86/slide_sse.c.obj
 
 arch/x86/slide_sse.i: arch/x86/slide_sse.c.i
@@ -427,7 +427,7 @@ arch/x86/slide_sse.i: arch/x86/slide_sse.c.i
 
 # target to preprocess a source file
 arch/x86/slide_sse.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_sse.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_sse.c.i
 .PHONY : arch/x86/slide_sse.c.i
 
 arch/x86/slide_sse.s: arch/x86/slide_sse.c.s
@@ -435,7 +435,7 @@ arch/x86/slide_sse.s: arch/x86/slide_sse.c.s
 
 # target to generate assembly for a file
 arch/x86/slide_sse.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_sse.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_sse.c.s
 .PHONY : arch/x86/slide_sse.c.s
 
 arch/x86/x86.obj: arch/x86/x86.c.obj
@@ -443,7 +443,7 @@ arch/x86/x86.obj: arch/x86/x86.c.obj
 
 # target to build an object file
 arch/x86/x86.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/x86.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/x86.c.obj
 .PHONY : arch/x86/x86.c.obj
 
 arch/x86/x86.i: arch/x86/x86.c.i
@@ -451,7 +451,7 @@ arch/x86/x86.i: arch/x86/x86.c.i
 
 # target to preprocess a source file
 arch/x86/x86.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/x86.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/x86.c.i
 .PHONY : arch/x86/x86.c.i
 
 arch/x86/x86.s: arch/x86/x86.c.s
@@ -459,7 +459,7 @@ arch/x86/x86.s: arch/x86/x86.c.s
 
 # target to generate assembly for a file
 arch/x86/x86.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/x86.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/x86.c.s
 .PHONY : arch/x86/x86.c.s
 
 chunkset.obj: chunkset.c.obj
@@ -467,7 +467,7 @@ chunkset.obj: chunkset.c.obj
 
 # target to build an object file
 chunkset.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/chunkset.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/chunkset.c.obj
 .PHONY : chunkset.c.obj
 
 chunkset.i: chunkset.c.i
@@ -475,7 +475,7 @@ chunkset.i: chunkset.c.i
 
 # target to preprocess a source file
 chunkset.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/chunkset.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/chunkset.c.i
 .PHONY : chunkset.c.i
 
 chunkset.s: chunkset.c.s
@@ -483,7 +483,7 @@ chunkset.s: chunkset.c.s
 
 # target to generate assembly for a file
 chunkset.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/chunkset.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/chunkset.c.s
 .PHONY : chunkset.c.s
 
 compare258.obj: compare258.c.obj
@@ -491,7 +491,7 @@ compare258.obj: compare258.c.obj
 
 # target to build an object file
 compare258.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compare258.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compare258.c.obj
 .PHONY : compare258.c.obj
 
 compare258.i: compare258.c.i
@@ -499,7 +499,7 @@ compare258.i: compare258.c.i
 
 # target to preprocess a source file
 compare258.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compare258.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compare258.c.i
 .PHONY : compare258.c.i
 
 compare258.s: compare258.c.s
@@ -507,7 +507,7 @@ compare258.s: compare258.c.s
 
 # target to generate assembly for a file
 compare258.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compare258.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compare258.c.s
 .PHONY : compare258.c.s
 
 compress.obj: compress.c.obj
@@ -515,7 +515,7 @@ compress.obj: compress.c.obj
 
 # target to build an object file
 compress.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compress.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compress.c.obj
 .PHONY : compress.c.obj
 
 compress.i: compress.c.i
@@ -523,7 +523,7 @@ compress.i: compress.c.i
 
 # target to preprocess a source file
 compress.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compress.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compress.c.i
 .PHONY : compress.c.i
 
 compress.s: compress.c.s
@@ -531,7 +531,7 @@ compress.s: compress.c.s
 
 # target to generate assembly for a file
 compress.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compress.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/compress.c.s
 .PHONY : compress.c.s
 
 crc32.obj: crc32.c.obj
@@ -539,7 +539,7 @@ crc32.obj: crc32.c.obj
 
 # target to build an object file
 crc32.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32.c.obj
 .PHONY : crc32.c.obj
 
 crc32.i: crc32.c.i
@@ -547,7 +547,7 @@ crc32.i: crc32.c.i
 
 # target to preprocess a source file
 crc32.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32.c.i
 .PHONY : crc32.c.i
 
 crc32.s: crc32.c.s
@@ -555,7 +555,7 @@ crc32.s: crc32.c.s
 
 # target to generate assembly for a file
 crc32.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32.c.s
 .PHONY : crc32.c.s
 
 crc32_comb.obj: crc32_comb.c.obj
@@ -563,7 +563,7 @@ crc32_comb.obj: crc32_comb.c.obj
 
 # target to build an object file
 crc32_comb.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32_comb.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32_comb.c.obj
 .PHONY : crc32_comb.c.obj
 
 crc32_comb.i: crc32_comb.c.i
@@ -571,7 +571,7 @@ crc32_comb.i: crc32_comb.c.i
 
 # target to preprocess a source file
 crc32_comb.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32_comb.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32_comb.c.i
 .PHONY : crc32_comb.c.i
 
 crc32_comb.s: crc32_comb.c.s
@@ -579,7 +579,7 @@ crc32_comb.s: crc32_comb.c.s
 
 # target to generate assembly for a file
 crc32_comb.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32_comb.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/crc32_comb.c.s
 .PHONY : crc32_comb.c.s
 
 deflate.obj: deflate.c.obj
@@ -587,7 +587,7 @@ deflate.obj: deflate.c.obj
 
 # target to build an object file
 deflate.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate.c.obj
 .PHONY : deflate.c.obj
 
 deflate.i: deflate.c.i
@@ -595,7 +595,7 @@ deflate.i: deflate.c.i
 
 # target to preprocess a source file
 deflate.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate.c.i
 .PHONY : deflate.c.i
 
 deflate.s: deflate.c.s
@@ -603,7 +603,7 @@ deflate.s: deflate.c.s
 
 # target to generate assembly for a file
 deflate.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate.c.s
 .PHONY : deflate.c.s
 
 deflate_fast.obj: deflate_fast.c.obj
@@ -611,7 +611,7 @@ deflate_fast.obj: deflate_fast.c.obj
 
 # target to build an object file
 deflate_fast.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_fast.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_fast.c.obj
 .PHONY : deflate_fast.c.obj
 
 deflate_fast.i: deflate_fast.c.i
@@ -619,7 +619,7 @@ deflate_fast.i: deflate_fast.c.i
 
 # target to preprocess a source file
 deflate_fast.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_fast.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_fast.c.i
 .PHONY : deflate_fast.c.i
 
 deflate_fast.s: deflate_fast.c.s
@@ -627,7 +627,7 @@ deflate_fast.s: deflate_fast.c.s
 
 # target to generate assembly for a file
 deflate_fast.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_fast.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_fast.c.s
 .PHONY : deflate_fast.c.s
 
 deflate_medium.obj: deflate_medium.c.obj
@@ -635,7 +635,7 @@ deflate_medium.obj: deflate_medium.c.obj
 
 # target to build an object file
 deflate_medium.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_medium.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_medium.c.obj
 .PHONY : deflate_medium.c.obj
 
 deflate_medium.i: deflate_medium.c.i
@@ -643,7 +643,7 @@ deflate_medium.i: deflate_medium.c.i
 
 # target to preprocess a source file
 deflate_medium.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_medium.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_medium.c.i
 .PHONY : deflate_medium.c.i
 
 deflate_medium.s: deflate_medium.c.s
@@ -651,7 +651,7 @@ deflate_medium.s: deflate_medium.c.s
 
 # target to generate assembly for a file
 deflate_medium.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_medium.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_medium.c.s
 .PHONY : deflate_medium.c.s
 
 deflate_quick.obj: deflate_quick.c.obj
@@ -659,7 +659,7 @@ deflate_quick.obj: deflate_quick.c.obj
 
 # target to build an object file
 deflate_quick.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_quick.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_quick.c.obj
 .PHONY : deflate_quick.c.obj
 
 deflate_quick.i: deflate_quick.c.i
@@ -667,7 +667,7 @@ deflate_quick.i: deflate_quick.c.i
 
 # target to preprocess a source file
 deflate_quick.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_quick.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_quick.c.i
 .PHONY : deflate_quick.c.i
 
 deflate_quick.s: deflate_quick.c.s
@@ -675,7 +675,7 @@ deflate_quick.s: deflate_quick.c.s
 
 # target to generate assembly for a file
 deflate_quick.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_quick.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_quick.c.s
 .PHONY : deflate_quick.c.s
 
 deflate_slow.obj: deflate_slow.c.obj
@@ -683,7 +683,7 @@ deflate_slow.obj: deflate_slow.c.obj
 
 # target to build an object file
 deflate_slow.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_slow.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_slow.c.obj
 .PHONY : deflate_slow.c.obj
 
 deflate_slow.i: deflate_slow.c.i
@@ -691,7 +691,7 @@ deflate_slow.i: deflate_slow.c.i
 
 # target to preprocess a source file
 deflate_slow.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_slow.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_slow.c.i
 .PHONY : deflate_slow.c.i
 
 deflate_slow.s: deflate_slow.c.s
@@ -699,7 +699,7 @@ deflate_slow.s: deflate_slow.c.s
 
 # target to generate assembly for a file
 deflate_slow.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_slow.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/deflate_slow.c.s
 .PHONY : deflate_slow.c.s
 
 functable.obj: functable.c.obj
@@ -707,7 +707,7 @@ functable.obj: functable.c.obj
 
 # target to build an object file
 functable.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/functable.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/functable.c.obj
 .PHONY : functable.c.obj
 
 functable.i: functable.c.i
@@ -715,7 +715,7 @@ functable.i: functable.c.i
 
 # target to preprocess a source file
 functable.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/functable.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/functable.c.i
 .PHONY : functable.c.i
 
 functable.s: functable.c.s
@@ -723,7 +723,7 @@ functable.s: functable.c.s
 
 # target to generate assembly for a file
 functable.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/functable.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/functable.c.s
 .PHONY : functable.c.s
 
 gzlib.obj: gzlib.c.obj
@@ -731,7 +731,7 @@ gzlib.obj: gzlib.c.obj
 
 # target to build an object file
 gzlib.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzlib.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzlib.c.obj
 .PHONY : gzlib.c.obj
 
 gzlib.i: gzlib.c.i
@@ -739,7 +739,7 @@ gzlib.i: gzlib.c.i
 
 # target to preprocess a source file
 gzlib.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzlib.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzlib.c.i
 .PHONY : gzlib.c.i
 
 gzlib.s: gzlib.c.s
@@ -747,7 +747,7 @@ gzlib.s: gzlib.c.s
 
 # target to generate assembly for a file
 gzlib.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzlib.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzlib.c.s
 .PHONY : gzlib.c.s
 
 gzread.obj: gzread.c.obj
@@ -755,7 +755,7 @@ gzread.obj: gzread.c.obj
 
 # target to build an object file
 gzread.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzread.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzread.c.obj
 .PHONY : gzread.c.obj
 
 gzread.i: gzread.c.i
@@ -763,7 +763,7 @@ gzread.i: gzread.c.i
 
 # target to preprocess a source file
 gzread.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzread.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzread.c.i
 .PHONY : gzread.c.i
 
 gzread.s: gzread.c.s
@@ -771,7 +771,7 @@ gzread.s: gzread.c.s
 
 # target to generate assembly for a file
 gzread.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzread.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzread.c.s
 .PHONY : gzread.c.s
 
 gzwrite.obj: gzwrite.c.obj
@@ -779,7 +779,7 @@ gzwrite.obj: gzwrite.c.obj
 
 # target to build an object file
 gzwrite.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.obj
 .PHONY : gzwrite.c.obj
 
 gzwrite.i: gzwrite.c.i
@@ -787,7 +787,7 @@ gzwrite.i: gzwrite.c.i
 
 # target to preprocess a source file
 gzwrite.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.i
 .PHONY : gzwrite.c.i
 
 gzwrite.s: gzwrite.c.s
@@ -795,7 +795,7 @@ gzwrite.s: gzwrite.c.s
 
 # target to generate assembly for a file
 gzwrite.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.s
 .PHONY : gzwrite.c.s
 
 infback.obj: infback.c.obj
@@ -803,7 +803,7 @@ infback.obj: infback.c.obj
 
 # target to build an object file
 infback.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/infback.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/infback.c.obj
 .PHONY : infback.c.obj
 
 infback.i: infback.c.i
@@ -811,7 +811,7 @@ infback.i: infback.c.i
 
 # target to preprocess a source file
 infback.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/infback.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/infback.c.i
 .PHONY : infback.c.i
 
 infback.s: infback.c.s
@@ -819,7 +819,7 @@ infback.s: infback.c.s
 
 # target to generate assembly for a file
 infback.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/infback.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/infback.c.s
 .PHONY : infback.c.s
 
 inffast.obj: inffast.c.obj
@@ -827,7 +827,7 @@ inffast.obj: inffast.c.obj
 
 # target to build an object file
 inffast.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inffast.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inffast.c.obj
 .PHONY : inffast.c.obj
 
 inffast.i: inffast.c.i
@@ -835,7 +835,7 @@ inffast.i: inffast.c.i
 
 # target to preprocess a source file
 inffast.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inffast.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inffast.c.i
 .PHONY : inffast.c.i
 
 inffast.s: inffast.c.s
@@ -843,7 +843,7 @@ inffast.s: inffast.c.s
 
 # target to generate assembly for a file
 inffast.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inffast.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inffast.c.s
 .PHONY : inffast.c.s
 
 inflate.obj: inflate.c.obj
@@ -851,7 +851,7 @@ inflate.obj: inflate.c.obj
 
 # target to build an object file
 inflate.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inflate.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inflate.c.obj
 .PHONY : inflate.c.obj
 
 inflate.i: inflate.c.i
@@ -859,7 +859,7 @@ inflate.i: inflate.c.i
 
 # target to preprocess a source file
 inflate.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inflate.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inflate.c.i
 .PHONY : inflate.c.i
 
 inflate.s: inflate.c.s
@@ -867,7 +867,7 @@ inflate.s: inflate.c.s
 
 # target to generate assembly for a file
 inflate.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inflate.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inflate.c.s
 .PHONY : inflate.c.s
 
 inftrees.obj: inftrees.c.obj
@@ -875,7 +875,7 @@ inftrees.obj: inftrees.c.obj
 
 # target to build an object file
 inftrees.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inftrees.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inftrees.c.obj
 .PHONY : inftrees.c.obj
 
 inftrees.i: inftrees.c.i
@@ -883,7 +883,7 @@ inftrees.i: inftrees.c.i
 
 # target to preprocess a source file
 inftrees.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inftrees.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inftrees.c.i
 .PHONY : inftrees.c.i
 
 inftrees.s: inftrees.c.s
@@ -891,7 +891,7 @@ inftrees.s: inftrees.c.s
 
 # target to generate assembly for a file
 inftrees.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inftrees.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/inftrees.c.s
 .PHONY : inftrees.c.s
 
 insert_string.obj: insert_string.c.obj
@@ -899,7 +899,7 @@ insert_string.obj: insert_string.c.obj
 
 # target to build an object file
 insert_string.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/insert_string.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/insert_string.c.obj
 .PHONY : insert_string.c.obj
 
 insert_string.i: insert_string.c.i
@@ -907,7 +907,7 @@ insert_string.i: insert_string.c.i
 
 # target to preprocess a source file
 insert_string.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/insert_string.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/insert_string.c.i
 .PHONY : insert_string.c.i
 
 insert_string.s: insert_string.c.s
@@ -915,7 +915,7 @@ insert_string.s: insert_string.c.s
 
 # target to generate assembly for a file
 insert_string.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/insert_string.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/insert_string.c.s
 .PHONY : insert_string.c.s
 
 trees.obj: trees.c.obj
@@ -923,7 +923,7 @@ trees.obj: trees.c.obj
 
 # target to build an object file
 trees.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/trees.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/trees.c.obj
 .PHONY : trees.c.obj
 
 trees.i: trees.c.i
@@ -931,7 +931,7 @@ trees.i: trees.c.i
 
 # target to preprocess a source file
 trees.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/trees.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/trees.c.i
 .PHONY : trees.c.i
 
 trees.s: trees.c.s
@@ -939,7 +939,7 @@ trees.s: trees.c.s
 
 # target to generate assembly for a file
 trees.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/trees.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/trees.c.s
 .PHONY : trees.c.s
 
 uncompr.obj: uncompr.c.obj
@@ -947,7 +947,7 @@ uncompr.obj: uncompr.c.obj
 
 # target to build an object file
 uncompr.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.obj
 .PHONY : uncompr.c.obj
 
 uncompr.i: uncompr.c.i
@@ -955,7 +955,7 @@ uncompr.i: uncompr.c.i
 
 # target to preprocess a source file
 uncompr.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.i
 .PHONY : uncompr.c.i
 
 uncompr.s: uncompr.c.s
@@ -963,7 +963,7 @@ uncompr.s: uncompr.c.s
 
 # target to generate assembly for a file
 uncompr.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.s
 .PHONY : uncompr.c.s
 
 zutil.obj: zutil.c.obj
@@ -971,7 +971,7 @@ zutil.obj: zutil.c.obj
 
 # target to build an object file
 zutil.c.obj:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/zutil.c.obj
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/zutil.c.obj
 .PHONY : zutil.c.obj
 
 zutil.i: zutil.c.i
@@ -979,7 +979,7 @@ zutil.i: zutil.c.i
 
 # target to preprocess a source file
 zutil.c.i:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/zutil.c.i
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/zutil.c.i
 .PHONY : zutil.c.i
 
 zutil.s: zutil.c.s
@@ -987,7 +987,7 @@ zutil.s: zutil.c.s
 
 # target to generate assembly for a file
 zutil.c.s:
-	cd /d D:\VSCode\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/zutil.c.s
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/zutil.c.s
 .PHONY : zutil.c.s
 
 # Help Target
@@ -1116,6 +1116,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\VSCode\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\VSCode\exemple4\UserQueries\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,6 @@
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj: \
- D:\VSCode\UserQueries\build\_deps\cpr-src\cpr\curl_container.cpp \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/curl_container.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\cpr-src\cpr\curl_container.cpp \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/curl_container.h \
  C:/msys64/ucrt64/include/c++/13.2.0/initializer_list \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -128,7 +128,7 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/curlholder.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/curlholder.h \
  C:/msys64/ucrt64/include/c++/13.2.0/array \
  C:/msys64/ucrt64/include/c++/13.2.0/compare \
  C:/msys64/ucrt64/include/c++/13.2.0/mutex \
@@ -141,9 +141,9 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/std_mutex.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/unique_lock.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/system.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/system.h \
  C:/msys64/ucrt64/include/winsock2.h \
  C:/msys64/ucrt64/include/_mingw_unicode.h \
  C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/sdkddkver.h \
@@ -348,8 +348,8 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj: \
  C:/msys64/ucrt64/include/ws2ipdef.h C:/msys64/ucrt64/include/in6addr.h \
  C:/msys64/ucrt64/include/psdk_inc/_ip_mreq1.h \
  C:/msys64/ucrt64/include/mstcpip.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/easy.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/multi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/options.h
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/easy.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/multi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/options.h

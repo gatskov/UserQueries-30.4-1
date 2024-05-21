@@ -1,6 +1,6 @@
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj: \
- D:\VSCode\UserQueries\build\_deps\cpr-src\cpr\auth.cpp \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/auth.h \
+ D:\VSCode\exemple4\UserQueries\build\_deps\cpr-src\cpr\auth.cpp \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/auth.h \
  C:/msys64/ucrt64/include/c++/13.2.0/string \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \

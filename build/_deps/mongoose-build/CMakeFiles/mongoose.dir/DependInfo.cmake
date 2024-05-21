@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/VSCode/UserQueries/build/_deps/mongoose-src/mongoose.c" "_deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.obj" "gcc" "_deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.obj.d"
+  "D:/VSCode/exemple4/UserQueries/build/_deps/mongoose-src/mongoose.c" "_deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.obj" "gcc" "_deps/mongoose-build/CMakeFiles/mongoose.dir/mongoose.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

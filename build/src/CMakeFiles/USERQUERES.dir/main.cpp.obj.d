@@ -1,5 +1,6 @@
 src/CMakeFiles/USERQUERES.dir/main.cpp.obj: \
- D:\VSCode\UserQueries\src\main.cpp \
+ D:\VSCode\exemple4\UserQueries\src\main.cpp \
+ D:\VSCode\exemple4\UserQueries\src\httpcpr.cpp \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -134,10 +135,9 @@ src/CMakeFiles/USERQUERES.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- D:\VSCode\UserQueries\src\httpcpr.cpp \
- D:/VSCode/UserQueries/include/httpcpr.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/cpr.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/api.h \
+ D:/VSCode/exemple4/UserQueries/include/httpcpr.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/cpr.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/api.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
@@ -190,13 +190,13 @@ src/CMakeFiles/USERQUERES.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/std_thread.h \
  C:/msys64/ucrt64/include/c++/13.2.0/utility \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/auth.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/bearer.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/cprtypes.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/system.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/auth.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/bearer.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/cprtypes.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curlver.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/system.h \
  C:/msys64/ucrt64/include/winsock2.h \
  C:/msys64/ucrt64/include/_mingw_unicode.h \
  C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/sdkddkver.h \
@@ -401,11 +401,11 @@ src/CMakeFiles/USERQUERES.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/ws2ipdef.h C:/msys64/ucrt64/include/in6addr.h \
  C:/msys64/ucrt64/include/psdk_inc/_ip_mreq1.h \
  C:/msys64/ucrt64/include/mstcpip.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/easy.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/multi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/curl.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
- D:/VSCode/UserQueries/build/_deps/curl-src/include/curl/options.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/easy.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/multi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/curl.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/urlapi.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/curl-src/include/curl/options.h \
  C:/msys64/ucrt64/include/c++/13.2.0/map \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_map.h \
@@ -420,34 +420,34 @@ src/CMakeFiles/USERQUERES.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/numeric \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_numeric.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/digest.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/multipart.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/ntlm.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/payload.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/curl_container.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/curlholder.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/response.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/digest.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/multipart.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/ntlm.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/payload.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/curl_container.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/curlholder.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/response.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cassert \
  C:/msys64/ucrt64/include/assert.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/cookies.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/cookies.h \
  C:/msys64/ucrt64/include/c++/13.2.0/sstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/sstream.tcc \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/error.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/ssl_options.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/util.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/callback.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/cprtypes.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/session.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/body.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/connect_timeout.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/timeout.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/error.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/ssl_options.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/util.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/callback.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/cprtypes.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/session.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/body.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/connect_timeout.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/timeout.h \
  C:/msys64/ucrt64/include/c++/13.2.0/chrono \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/limit_rate.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/low_speed.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/max_redirects.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/parameters.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/proxies.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/unix_socket.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/user_agent.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/verbose.h \
- D:/VSCode/UserQueries/build/_deps/cpr-src/include/cpr/status_codes.h
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/limit_rate.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/low_speed.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/max_redirects.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/parameters.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/proxies.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/unix_socket.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/user_agent.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/verbose.h \
+ D:/VSCode/exemple4/UserQueries/build/_deps/cpr-src/include/cpr/status_codes.h

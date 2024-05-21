@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=url
-command=C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/UserQueries/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/UserQueries/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/UserQueries/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake
-source_dir=D:/VSCode/UserQueries/build/_deps/googletest-src
-work_dir=D:/VSCode/UserQueries/build/_deps
+command=C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/exemple4/UserQueries/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/exemple4/UserQueries/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/exemple4/UserQueries/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake
+source_dir=D:/VSCode/exemple4/UserQueries/build/_deps/googletest-src
+work_dir=D:/VSCode/exemple4/UserQueries/build/_deps
 url(s)=https://github.com/google/googletest/archive/release-1.10.0.tar.gz
 hash=SHA256=9dc9157a9a1551ec7a7e43daea9a694a0bb5fb8bec81235d8a1e6ef64c716dcb
 no_extract=

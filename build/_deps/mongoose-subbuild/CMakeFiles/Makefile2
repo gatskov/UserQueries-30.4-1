@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VSCode\UserQueries\build\_deps\mongoose-subbuild
+CMAKE_SOURCE_DIR = D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VSCode\UserQueries\build\_deps\mongoose-subbuild
+CMAKE_BINARY_DIR = D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/mongoose-populate.dir/clean
 CMakeFiles/mongoose-populate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mongoose-populate.dir\build.make CMakeFiles/mongoose-populate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mongoose-populate.dir\build.make CMakeFiles/mongoose-populate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target mongoose-populate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target mongoose-populate"
 .PHONY : CMakeFiles/mongoose-populate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mongoose-populate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/mongoose-populate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\exemple4\UserQueries\build\_deps\mongoose-subbuild\CMakeFiles 0
 .PHONY : CMakeFiles/mongoose-populate.dir/rule
 
 # Convenience name for target.

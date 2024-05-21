@@ -21,7 +21,7 @@
 #
 ###########################################################################
 
-prefix=C:/Program Files (x86)/Httpbin
+prefix=C:/Program Files (x86)/USERQUERES
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -155,8 +155,8 @@ while test $# -gt 0; do
         ;;
 
     --libs)
-        if test "XC:/Program Files (x86)/Httpbin/lib" != "X/usr/lib" -a "XC:/Program Files (x86)/Httpbin/lib" != "X/usr/lib64"; then
-           CURLLIBDIR="-LC:/Program Files (x86)/Httpbin/lib "
+        if test "XC:/Program Files (x86)/USERQUERES/lib" != "X/usr/lib" -a "XC:/Program Files (x86)/USERQUERES/lib" != "X/usr/lib64"; then
+           CURLLIBDIR="-LC:/Program Files (x86)/USERQUERES/lib "
         else
            CURLLIBDIR=""
         fi
@@ -172,7 +172,7 @@ while test $# -gt 0; do
 
     --static-libs)
         if test "Xno" != "Xno" ; then
-          echo C:/Program Files (x86)/Httpbin/lib/libcurl.a   -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lwinmm -lws2_32 -ladvapi32
+          echo C:/Program Files (x86)/USERQUERES/lib/libcurl.a   -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lwinmm -lws2_32 -ladvapi32
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1
