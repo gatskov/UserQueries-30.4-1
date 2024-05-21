@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmongoose.a CMakeFiles/mongoose.dir/mongoose.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmongoose.a

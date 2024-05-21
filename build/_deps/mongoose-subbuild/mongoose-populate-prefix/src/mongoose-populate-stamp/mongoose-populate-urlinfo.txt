@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/download-mongoose-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/verify-mongoose-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;D:/VSCode/UserQueries/build/_deps/mongoose-subbuild/mongoose-populate-prefix/src/mongoose-populate-stamp/extract-mongoose-populate.cmake
+source_dir=D:/VSCode/UserQueries/build/_deps/mongoose-src
+work_dir=D:/VSCode/UserQueries/build/_deps
+url(s)=https://github.com/cesanta/mongoose/archive/6.18.tar.gz
+hash=SHA256=f5c10346abc9c72f7cac7885d853ca064fb09aad57580433941a8fd7a3543769
+no_extract=
+
